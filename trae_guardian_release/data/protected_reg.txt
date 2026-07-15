@@ -1,0 +1,90 @@
+# User-level and software registry paths. Modifications to these paths by non-Microsoft/Windows signed processes
+# will be sent to AI for analysis instead of terminated immediately.
+#
+# One full registry path per line. Use HKEY_LOCAL_MACHINE\... or HKEY_CURRENT_USER\... format.
+
+# Startup entries
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceEx
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\Load
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnceEx
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\Load
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\RunOnce
+HKEY_CURRENT_USER\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+HKEY_CURRENT_USER\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\RunOnce
+
+# File association hijack
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\exefile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\exefile\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\comfile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\comfile\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\batfile\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\cmdfile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\cmdfile\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\htafile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\htafile\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ms-settings\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\ms-settings\shell\open\command
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\mscfile\shell\open\command
+HKEY_CURRENT_USER\SOFTWARE\Classes\mscfile\shell\open\command
+
+# Winlogon / Shell / UserInit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Userinit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Winlogon
+
+# AppInit DLLs
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\Appinit_Dlls
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows\Appinit_Dlls
+
+# LSA packages / notification
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Notification Packages
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\Security Packages
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\OSConfig\Security Packages
+
+# BootExecute / Session Manager
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\BootExecute
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Execute
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\SetupExecute
+
+# Scheduled Tasks cache
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tasks
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree
+
+# WMI repository / Event Consumer
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WBEM
+
+# BITS
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\BITS\StateIndex
+
+# Windows Defender exclusions (user-defined exclusions are common attack vectors)
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Exclusions
+
+# Browser policies / hijack
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome
+HKEY_CURRENT_USER\SOFTWARE\Policies\Google\Chrome
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge
+HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Edge
+HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox
+HKEY_CURRENT_USER\SOFTWARE\Mozilla\Firefox
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main
+
+# Proxy / PAC
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+
+# Security providers / encryption
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\PnpLockdownFiles
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\OID

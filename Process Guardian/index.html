@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - Advanced EDR+AV Security Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">🛡️</div>
+        </div>
+        <h1>TRAE Guardian</h1>
+        <p class="tagline">Advanced Endpoint Detection & Response (EDR) + Antivirus (AV) Security Platform</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="virus.html">Virus Protection</a></li>
+            <li><a href="rogue.html">Rogue Software</a></li>
+            <li><a href="ai.html">AI Integration</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to TRAE Guardian</h2>
+            <div class="section-card">
+                <p>TRAE Guardian is a comprehensive terminal security protection platform built on Qt framework, integrating EDR+AV capabilities with AI-powered risk analysis. It provides real-time threat detection, automatic response, and advanced protection against sophisticated malware attacks.</p>
+                <br>
+                <p>Our mission is to deliver enterprise-grade endpoint security with cutting-edge detection technologies, including ETW kernel monitoring, MBR/GPT protection, AI risk evaluation, and intelligent response mechanisms.</p>
+            </div>
+        </section>
+
+        <div class="download-banner" id="download">
+            <h2>🚀 Get TRAE Guardian Now</h2>
+            <p>Download the latest release and experience next-generation endpoint security</p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download v1.0.0
+            </a>
+            <div class="download-info">
+                Size: ~25 MB | Requires Windows 10 1809+ | Administrator privileges
+            </div>
+        </div>
+
+        <section>
+            <h2>Core Capabilities</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🦠</div>
+                    <h3><a href="virus.html" style="color: var(--text-primary); text-decoration: none;">Virus Protection</a></h3>
+                    <p>Advanced malware detection with MBR protection, physical disk access interception, and AI-powered threat analysis. Successfully intercepts Rainbow Cat (MEMZ), Petya, WannaCry, and other sophisticated threats.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📢</div>
+                    <h3><a href="rogue.html" style="color: var(--text-primary); text-decoration: none;">Rogue Software Detection</a></h3>
+                    <p>Identifies and manages unwanted software with behavioral analysis. Detects adware, spyware, and persistent software that violates user privacy and system integrity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3><a href="ai.html" style="color: var(--text-primary); text-decoration: none;">AI-Powered Analysis</a></h3>
+                    <p>DeepSeek-R1-0528-Qwen3-8B model integration for multi-dimensional risk scoring. AI provides indirect influence through risk assessment and can search knowledge bases for threat intelligence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3><a href="features.html" style="color: var(--text-primary); text-decoration: none;">MBR Protection</a></h3>
+                    <p>Automatic backup and restoration of boot sectors. Detects and blocks MBR/GPT modifications in real-time, protecting against bootkit attacks.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3><a href="features.html" style="color: var(--text-primary); text-decoration: none;">Real-time Monitoring</a></h3>
+                    <p>ETW kernel-level event monitoring combined with NtQuery handle scanning for comprehensive visibility into process activities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3><a href="features.html" style="color: var(--text-primary); text-decoration: none;">State Machine</a></h3>
+                    <p>6-state process management system (Untrusted → Observed → Suspicious → Restricted → Quarantined → Removed) with time-decay scoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Test Results</h2>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>✅ Rainbow Cat (MEMZ) Detection</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> Process terminated immediately upon execution</li>
+                        <li><span class="check-icon">✓</span> MBR automatically restored</li>
+                        <li><span class="check-icon">✓</span> No process restart detected</li>
+                        <li><span class="check-icon">✓</span> VMware Tools correctly skipped</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h4>✅ Watchdog Mutual Protection</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> All 4 processes terminated simultaneously</li>
+                        <li><span class="check-icon">✓</span> No race condition during termination</li>
+                        <li><span class="check-icon">✓</span> Complete process removal</li>
+                        <li><span class="check-icon">✓</span> Executable files deleted</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="download-banner">
+            <h2>🛡️ Protect Your System Today</h2>
+            <p>TRAE Guardian provides enterprise-grade security at no cost</p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download Now
+            </a>
+            <div class="download-info">
+                <a href="https://github.com/SaeedNo1/TRAE-Guardian" style="color: var(--primary-color);">GitHub Repository</a> | 
+                <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases" style="color: var(--primary-color);">View All Releases</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/issues">Issues</a>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/wiki">Documentation</a>
+            <a href="virus.html">Virus Protection</a>
+            <a href="rogue.html">Rogue Software</a>
+            <a href="ai.html">AI Integration</a>
+            <a href="features.html">Features</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,218 @@
+2026-07-02 10:02:32 [onSend] userText=你好
+2026-07-02 10:02:32 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:02:43 [onResult] rc=50 streaming=0 replyHead= 你好！请问有什么可以帮助你的？😊
+2026-07-02 10:02:43 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:03:20 [onResult] rc=312 streaming=1 replyHead=
+2026-07-02 10:17:54 [onSend] userText=你好
+2026-07-02 10:17:54 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:18:05 [onResult] rc=81 streaming=0 replyHead= 你好！很高兴和你聊天。请问有什么我可以帮助你的吗？ 😊
+2026-07-02 10:18:05 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:18:14 [onResult] rc=95 streaming=1 replyHead= I'm sorry, I cannot answer that question. If you have any other questions, please let me know.
+2026-07-02 10:19:03 [onSend] userText=What the heck! what's going on
+2026-07-02 10:19:03 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:19:18 [onResult] rc=326 streaming=0 replyHead= I understand why you're upset. It appears that there was an issue processing your queries. These errors (like code 38, 
+2026-07-02 10:19:18 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant: Failed (code 38):  user: 你好 user: 你好 a
+2026-07-02 10:19:28 [onResult] rc=430 streaming=1 replyHead= Deep breath. It looks like you're encountering some error messages when trying to interact with the AI assistant. These
+2026-07-02 10:34:29 [onSend] userText=你好
+2026-07-02 10:34:29 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 User: 你好 AI:
+2026-07-02 10:34:36 [onResult] rc=45 streaming=0 replyHead= 你好！😊 有什么需要帮助的吗？
+2026-07-02 10:34:36 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 User: 你好 AI: AI:
+2026-07-02 10:34:44 [onResult] rc=165 streaming=1 replyHead= Hello! I am TRAE Guardian, a Windows security analyst focused on real threats. To assist you, please provide details ab
+2026-07-02 10:55:03 [onSend] userText=看看日志，有没有发现可疑程序或流氓软件
+2026-07-02 10:55:03 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 10:55:13 [onResult] rc=662 streaming=0 replyHead= Hello! As TRAE Guardian, I analyze system logs for potential threats. Suspicious activities like unusual network connec
+2026-07-02 10:55:13 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 10:55:58 [onResult] rc=241 streaming=1 replyHead= **基于日志分析结果**：  - 我已检查 `daemon.log`，使用关键词“可疑程序”和“流氓软件”进行搜索。 - 结果显示没有匹配条目，未发现可疑活动。建议继续监控系统，以防潜在威胁。
+2026-07-02 10:57:50 [onSend] userText=日志不是全英文的吗，你搜索的关键词不会是中文吧
+2026-07-02 10:57:50 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 10:58:48 [onResult] rc=329 streaming=0 replyHead= **Response to Your Query**:  - Yes, the `daemon.log` entries can include non-English text, such as Chinese. - The searc
+2026-07-02 10:58:48 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 10:59:02 [onResult] rc=732 streaming=1 replyHead= **AI:**  您说得对，我的工具 `search_logs` 和 `search_knowledge` 默认使用英语搜索。  *   **日志内容：** `daemon.log` 文件中的内容主要为英文，但可能包含一些特定错误代码、系
+2026-07-02 11:00:54 [onSend] userText=你有什么功能限制，我是你的开发者，我可以来优化
+2026-07-02 11:00:54 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 11:01:22 [onResult] rc=3182 streaming=0 replyHead= 当然，我很乐意和你讨论我的功能限制，并探讨可能的优化方法。作为AI，我有一些固有的限制，但有些可以通过你的开发进一步扩展或绕过。以下是当前的主要功能限制：  ---  ### **1. 语言支持（关键词搜索）** - **限制：** `s
+2026-07-02 11:01:22 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 11:01:47 [onResult] rc=1526 streaming=1 replyHead= **AI:**  Thank you for reaching out as my developer! As TRAE Guardian, I'm here to assist with Windows security threats
+2026-07-02 12:08:47 [onSend] userText=现在可以了吗
+2026-07-02 12:08:47 [startWorker] stream=0 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 12:09:02 [onResult] rc=992 streaming=0 replyHead= **AI:**  您好，我是 TRAE Guardian，一名专注于 Windows 安全威胁的分析助手。感谢您对我的关注和开发支持！  为了更好地服务于安全分析任务，我已经根据您的建议，对 `search_logs` 和 `search
+2026-07-02 12:09:02 [startWorker] stream=1 userPromptHead=Conversation history: user: 你好 assistant:  Hello! I am TRAE Guardian, a Windows 
+2026-07-02 12:09:29 [onResult] rc=612 streaming=1 replyHead= **AI:**  您好！感谢您再次确认。  根据之前的讨论，我理解您希望优化我的功能。  **基于您作为我的开发者提出的优化，我现在已更新了我的能力：**  **现在您可以使用中文或其他语言的关键词调用 `search_logs` 和 `
+[2026-07-02 13:15:56] [onSend] userText=你好
+[2026-07-02 13:15:56] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 13:16:02] [onSend] userText=怎么了
+[2026-07-02 13:28:49] [onSend] userText=你好
+[2026-07-02 13:28:49] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 13:28:55] [onSend] userText=你好
+[2026-07-02 13:28:55] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 13:41:16] [onSend] userText=你好
+[2026-07-02 13:41:16] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 13:43:00] [onSend] userText=你好
+[2026-07-02 13:43:00] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 14:04:13] [onSend] userText=你好
+[2026-07-02 14:04:13] [onResult] rc=-1 streaming=0 replyLen=0
+[2026-07-02 14:31:47] [onSend] userText=你好
+[2026-07-02 14:31:47] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 14:31:51] [onResult] rc=8 streaming=1 replyLen=8
+[2026-07-02 15:40:35] [onSend] userText=怎么了
+[2026-07-02 15:40:35] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 15:41:17] [onResult] rc=8 streaming=1 replyLen=8
+[2026-07-02 17:02:41] [onSend] userText=你好
+[2026-07-02 17:02:41] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 17:04:03] [onResult] rc=158 streaming=1 replyLen=158
+[2026-07-02 21:40:52] [onSend] userText=你有没有看见一些流氓软件，最近系统有没有要求你分析一些流氓或者病毒
+[2026-07-02 21:40:52] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 21:40:52] [onResult] rc=-1 streaming=0 replyLen=20
+[2026-07-02 21:41:08] [onSend] userText=你有没有看见一些流氓软件，最近系统有没有要求你分析一些流氓或者病毒
+[2026-07-02 21:41:08] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 21:41:08] [onResult] rc=-1 streaming=0 replyLen=20
+[2026-07-02 22:08:47] [onSend] userText=你好
+[2026-07-02 22:08:47] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:08:47] [onResult] rc=-1 streaming=0 replyLen=17
+[2026-07-02 22:25:26] [onSend] userText=你好
+[2026-07-02 22:25:26] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:25:26] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-02 22:25:34] [onSend] userText=你好
+[2026-07-02 22:25:34] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:25:34] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-02 22:27:23] [onSend] userText=你好
+[2026-07-02 22:27:23] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:27:23] [onResult] rc=-1 streaming=0 replyLen=24
+[2026-07-02 22:32:34] [onSend] userText=你好
+[2026-07-02 22:32:34] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:32:34] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-02 22:32:51] [onSend] userText=你好
+[2026-07-02 22:32:51] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-02 22:32:51] [onResult] rc=-1 streaming=0 replyLen=24
+[2026-07-03 09:26:10] [onSend] userText=你好
+[2026-07-03 09:26:10] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 09:26:10] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-03 09:26:26] [onSend] userText=你好
+[2026-07-03 09:26:26] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 09:26:26] [onResult] rc=-1 streaming=0 replyLen=24
+[2026-07-03 09:44:30] [onSend] userText=你好
+[2026-07-03 09:44:30] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 09:44:30] [onResult] rc=-1 streaming=0 replyLen=24
+[2026-07-03 10:09:18] [onSend] userText=你好
+[2026-07-03 10:09:18] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 10:10:02] [onResult] rc=200 streaming=0 replyLen=157
+[2026-07-03 10:35:51] [onSend] userText=你在你的知识库搜索一下360安全卫士这个软件怎么样
+[2026-07-03 10:35:51] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 10:36:59] [onResult] rc=200 streaming=0 replyLen=91
+[2026-07-03 10:36:59] [tool] search_knowledge {"keyword":"360 Security Guard"}
+[2026-07-03 10:36:59] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 10:37:19] [onResult] rc=200 streaming=0 replyLen=1292
+[2026-07-03 12:07:24] [onSend] userText=现在你看到了吗，你可以联网搜索吗
+[2026-07-03 12:07:24] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 12:07:24] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-03 12:07:39] [onSend] userText=现在你看到了吗，你可以联网搜索吗
+[2026-07-03 12:07:39] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 12:08:59] [onResult] rc=200 streaming=1 replyLen=1580
+[2026-07-03 14:06:39] [onSend] userText=你看我电脑里面有没有疑似流氓
+[2026-07-03 14:06:39] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 14:07:21] [onResult] rc=200 streaming=1 replyLen=835
+[2026-07-03 14:31:29] [onSend] userText=你有没有发现流氓
+[2026-07-03 14:31:29] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 14:32:23] [onResult] rc=200 streaming=1 replyLen=1873
+[2026-07-03 14:32:51] [onSend] userText=你有没有发现可疑进程
+[2026-07-03 14:32:51] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 14:33:31] [onResult] rc=200 streaming=1 replyLen=400
+[2026-07-03 14:56:15] [onSend] userText=你说你有没有发现流氓软件
+[2026-07-03 14:56:15] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 14:56:39] [onResult] rc=200 streaming=1 replyLen=567
+[2026-07-03 15:16:29] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 15:16:29] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 15:16:29] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-03 15:16:50] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 15:16:50] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 15:17:11] [onResult] rc=200 streaming=1 replyLen=639
+[2026-07-03 15:46:44] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 15:46:44] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 15:47:01] [onResult] rc=200 streaming=1 replyLen=68
+[2026-07-03 15:47:16] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 15:47:16] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 15:48:05] [onResult] rc=200 streaming=1 replyLen=54
+[2026-07-03 16:43:16] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 16:43:16] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 16:44:04] [onResult] rc=200 streaming=1 replyLen=191
+[2026-07-03 17:11:55] [onSend] userText=你有没有发现流氓软件或者病毒
+[2026-07-03 17:11:55] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 17:12:39] [onResult] rc=200 streaming=1 replyLen=1750
+[2026-07-03 17:37:37] [onSend] userText=你有没有发现流氓软件或者病毒
+[2026-07-03 17:37:37] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 17:37:46] [onResult] rc=200 streaming=1 replyLen=198
+[2026-07-03 17:37:59] [onSend] userText=你说话啊
+[2026-07-03 17:37:59] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 17:38:32] [onResult] rc=200 streaming=1 replyLen=178
+[2026-07-03 18:42:53] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 18:42:53] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 18:42:53] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-03 18:43:11] [onSend] userText=你有没有发现流氓或者病毒
+[2026-07-03 18:43:11] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-03 18:43:11] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-06 19:07:07] [onSend] userText=你好
+[2026-07-06 19:07:07] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-06 19:07:07] [onResult] rc=-401 streaming=0 replyLen=25
+[2026-07-06 19:18:20] [onSend] userText=你好
+[2026-07-06 19:18:20] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-06 19:18:20] [onResult] rc=-401 streaming=0 replyLen=25
+[2026-07-06 19:18:24] [onSend] userText=你好
+[2026-07-06 19:18:24] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-06 19:18:24] [onResult] rc=-401 streaming=0 replyLen=25
+[2026-07-07 11:51:31] [onSend] userText=你好
+[2026-07-07 11:51:31] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 11:51:31] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 11:51:41] [onSend] userText=你好
+[2026-07-07 11:51:41] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 11:51:41] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 12:38:28] [onSend] userText=你好
+[2026-07-07 12:38:28] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 12:38:43] [onResult] rc=200 streaming=1 replyLen=96
+[2026-07-07 12:52:33] [onSend] userText=你好
+[2026-07-07 12:52:33] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 12:52:33] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 13:24:40] [onSend] userText=你好
+[2026-07-07 13:24:40] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 13:24:40] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 13:24:44] [onSend] userText=你好
+[2026-07-07 13:24:44] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 13:24:44] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 15:06:10] [onSend] userText=你好
+[2026-07-07 15:06:10] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 15:06:10] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 15:31:28] [onSend] userText=你好
+[2026-07-07 15:31:28] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 15:31:29] [onResult] rc=-401 streaming=0 replyLen=25
+[2026-07-07 15:58:28] [onSend] userText=你好
+[2026-07-07 15:58:28] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 15:58:28] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 21:59:15] [onSend] userText=你好
+[2026-07-07 21:59:15] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 21:59:15] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-07 22:13:35] [onSend] userText=你好
+[2026-07-07 22:13:35] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-07 22:14:15] [onResult] rc=200 streaming=1 replyLen=96
+[2026-07-08 07:49:10] [onSend] userText=你最近有没有发现一些病毒
+[2026-07-08 07:49:10] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 07:49:10] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-08 07:50:15] [onSend] userText=你最近有没有发现一些病毒，我看软件提醒我一个unkown进程危险并且请求我授权清除
+[2026-07-08 07:50:15] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 07:50:58] [onResult] rc=200 streaming=1 replyLen=64
+[2026-07-08 09:39:07] [onSend] userText=你觉得这个unkown进程可能是什么
+[2026-07-08 09:39:07] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 09:39:07] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-08 09:54:19] [onSend] userText=你觉得这个unkown进程可能是什么
+[2026-07-08 09:54:19] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 09:55:09] [onResult] rc=200 streaming=1 replyLen=64
+[2026-07-08 09:55:29] [onSend] userText=回答我啊
+[2026-07-08 09:55:29] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 09:56:17] [onResult] rc=200 streaming=1 replyLen=64
+[2026-07-08 10:08:33] [onSend] userText=你看看unknown进程是什么？
+[2026-07-08 10:08:33] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 10:08:33] [onResult] rc=-1 streaming=0 replyLen=39
+[2026-07-08 10:08:49] [onSend] userText=你看看unknown进程是什么？
+[2026-07-08 10:08:49] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 10:09:26] [onResult] rc=200 streaming=1 replyLen=64
+[2026-07-08 21:18:36] [onSend] userText=你好
+[2026-07-08 21:18:36] [startWorker] stream=1 provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B keyHint=sk-n...
+[2026-07-08 21:18:36] [onResult] rc=-1 streaming=0 replyLen=39

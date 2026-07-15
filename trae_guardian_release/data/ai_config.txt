@@ -1,0 +1,8 @@
+# AI provider configuration
+provider=
+endpoint=
+model=
+api_key=
+input_context_limit=8192
+output_context_limit=4096
+temperature=0.70

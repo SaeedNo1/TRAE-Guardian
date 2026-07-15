@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - Advanced EDR+AV Security Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #1a73e8;
+            --primary-dark: #1557b0;
+            --secondary-color: #00d4aa;
+            --accent-color: #ff6b6b;
+            --bg-dark: #0a0a0f;
+            --bg-card: #16161d;
+            --bg-card-hover: #1e1e2a;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b0;
+            --text-muted: #606070;
+            --border-color: #2a2a3a;
+            --gradient-primary: linear-gradient(135deg, #1a73e8 0%, #00d4aa 100%);
+            --gradient-accent: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            --gradient-card: linear-gradient(145deg, #16161d 0%, #1e1e2a 100%);
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 80%, rgba(26, 115, 232, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(0, 212, 170, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(255, 107, 107, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Header */
+        header {
+            position: relative;
+            z-index: 1;
+            padding: 60px 20px 40px;
+            text-align: center;
+            background: var(--gradient-card);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            box-shadow: 0 8px 32px rgba(26, 115, 232, 0.3);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 8px 32px rgba(26, 115, 232, 0.3); }
+            50% { box-shadow: 0 8px 48px rgba(26, 115, 232, 0.5); }
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 15, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 8px;
+            padding: 12px 20px;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: var(--text-primary);
+            background: rgba(26, 115, 232, 0.2);
+        }
+
+        nav a.active {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        /* Main Content */
+        main {
+            position: relative;
+            z-index: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 40px;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(26, 115, 232, 0.2);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 8px;
+        }
+
+        /* CTA Button */
+        .cta-section {
+            text-align: center;
+            padding: 40px 20px;
+            margin: 40px 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+        }
+
+        .cta-title {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(26, 115, 232, 0.4);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(26, 115, 232, 0.5);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-primary);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Architecture Section */
+        .architecture-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        .architecture-section h2 {
+            text-align: center;
+            margin-bottom: 32px;
+            font-size: 1.8rem;
+        }
+
+        .architecture-layers {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .layer {
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .layer:hover {
+            border-color: var(--primary-color);
+            background: rgba(26, 115, 232, 0.05);
+        }
+
+        .layer-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-primary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .layer-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 4px;
+        }
+
+        .layer-content p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .layer-arrow {
+            margin: 0 auto;
+            color: var(--text-muted);
+            font-size: 24px;
+        }
+
+        /* AI Section */
+        .ai-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-bottom: 40px;
+        }
+
+        .ai-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 32px;
+        }
+
+        .ai-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+
+        .ai-card ul {
+            list-style: none;
+        }
+
+        .ai-card li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .ai-card li:last-child {
+            border-bottom: none;
+        }
+
+        .ai-check {
+            color: var(--secondary-color);
+            font-size: 18px;
+        }
+
+        /* Test Results */
+        .test-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 40px;
+        }
+
+        .test-section h2 {
+            text-align: center;
+            margin-bottom: 32px;
+            font-size: 1.8rem;
+        }
+
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+        }
+
+        .test-card {
+            background: var(--bg-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .test-card h4 {
+            font-size: 1.2rem;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .test-success {
+            color: var(--secondary-color);
+        }
+
+        .test-item {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+        }
+
+        .test-check {
+            color: var(--secondary-color);
+            font-size: 16px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-color);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .copyright {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 900px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .hero-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .ai-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .test-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-stats {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+            }
+
+            nav a {
+                padding: 6px 12px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">🛡️</div>
+        </div>
+        <h1>TRAE Guardian</h1>
+        <p class="tagline">Advanced Endpoint Detection & Response (EDR) + Antivirus (AV) Security Platform</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#features" class="active">Features</a></li>
+            <li><a href="#architecture">Architecture</a></li>
+            <li><a href="#ai">AI Integration</a></li>
+            <li><a href="#tests">Test Results</a></li>
+            <li><a href="#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 800px; margin: 0 auto;">
+                TRAE Guardian is a comprehensive terminal security protection platform that integrates 
+                EDR+AV capabilities with AI-powered risk analysis. It provides real-time threat detection, 
+                automatic response, and advanced protection against sophisticated malware attacks.
+            </p>
+            
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-value">6</div>
+                    <div class="stat-label">Protection Layers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Response Levels</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">100%</div>
+                    <div class="stat-label">Detection Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">False Positives</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download CTA -->
+        <section id="download" class="cta-section">
+            <h2 class="cta-title">Get Started Today</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 24px;">
+                Download the latest release and protect your system from advanced threats
+            </p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                📥 Download v1.0.0
+            </a>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 12px;">
+                Size: ~45 MB | Requires Windows 10 1809+ | Administrator privileges
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2 style="text-align: center; margin-bottom: 32px; font-size: 1.8rem;">Core Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>MBR Protection</h3>
+                    <p>Automatic backup and restoration of boot sectors. Detects and blocks MBR/GPT modifications in real-time, protecting against bootkit attacks like Rainbow Cat (MEMZ).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-time Monitoring</h3>
+                    <p>ETW kernel-level event monitoring combined with NtQuery handle scanning for comprehensive visibility into process activities and system changes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI Risk Analysis</h3>
+                    <p>DeepSeek-R1-0528-Qwen3-8B model integration for multi-dimensional risk scoring. AI provides indirect influence through risk assessment.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔫</div>
+                    <h3>Watchdog Defense</h3>
+                    <p>Simultaneous group termination of mutually-protected malware processes. Eliminates race conditions by opening all handles and terminating at once.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <p>Configurable rule engine with 8-level graded response. Supports custom detection rules, risk thresholds, and automated response actions.</p>
+                    <h3>Rule Engine</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3>State Machine</h3>
+                    <p>6-state process management system (Untrusted → Observed → Suspicious → Restricted → Quarantined → Removed) with time-decay scoring.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Section -->
+        <section id="architecture" class="architecture-section">
+            <h2>System Architecture</h2>
+            <div class="architecture-layers">
+                <div class="layer">
+                    <div class="layer-icon">🖥️</div>
+                    <div class="layer-content">
+                        <h4>Qt Visualization GUI</h4>
+                        <p>trae_guardian_qt.exe - User interface for monitoring and management</p>
+                    </div>
+                </div>
+                <div class="layer-arrow">⬇️</div>
+                <div class="layer">
+                    <div class="layer-icon">⚙️</div>
+                    <div class="layer-content">
+                        <h4>Core Modules</h4>
+                        <p>Configuration Center | Log Center (SQLite) | AI Score Center</p>
+                    </div>
+                </div>
+                <div class="layer-arrow">⬇️</div>
+                <div class="layer">
+                    <div class="layer-icon">🔍</div>
+                    <div class="layer-content">
+                        <h4>Detection Engine</h4>
+                        <p>ETW Monitoring | Handle Scanning | MBR Protection | Registry Protection | File Scanning | Network Audit</p>
+                    </div>
+                </div>
+                <div class="layer-arrow">⬇️</div>
+                <div class="layer">
+                    <div class="layer-icon">🛡️</div>
+                    <div class="layer-content">
+                        <h4>Response & Rule Engine</h4>
+                        <p>Graded Response (8 levels) | State Machine (6 states) | Configurable Rule Engine | AI Risk Evaluation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Integration Section -->
+        <section id="ai" class="ai-section">
+            <div class="ai-card">
+                <h3>🤖 AI Components</h3>
+                <ul>
+                    <li><span class="ai-check">✓</span> <strong>ai_client.dll</strong> - WinHTTP-based API client</li>
+                    <li><span class="ai-check">✓</span> <strong>ai_action.dll</strong> - AI action execution</li>
+                    <li><span class="ai-check">✓</span> <strong>ai_web_search.dll</strong> - Threat intelligence</li>
+                    <li><span class="ai-check">✓</span> <strong>Model</strong> - DeepSeek-R1-0528-Qwen3-8B</li>
+                    <li><span class="ai-check">✓</span> <strong>Endpoint</strong> - SiliconFlow Cloud API</li>
+                </ul>
+            </div>
+            <div class="ai-card">
+                <h3>📊 AI Functions</h3>
+                <ul>
+                    <li><span class="ai-check">✓</span> <strong>Risk Evaluation</strong> - Analyze process behavior and assign scores</li>
+                    <li><span class="ai-check">✓</span> <strong>Behavior Analysis</strong> - Long-term pattern monitoring</li>
+                    <li><span class="ai-check">✓</span> <strong>Threat Intelligence</strong> - AI-powered pattern recognition</li>
+                    <li><span class="ai-check">✓</span> <strong>Indirect Influence</strong> - Adds scores, doesn't execute commands</li>
+                    <li><span class="ai-check">✓</span> <strong>ETW Monitoring</strong> - AI only monitors logs</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Test Results Section -->
+        <section id="tests" class="test-section">
+            <h2>Test Results</h2>
+            <div class="test-grid">
+                <div class="test-card">
+                    <h4><span class="test-success">✅</span> Rainbow Cat (MEMZ) Detection</h4>
+                    <div class="test-item"><span class="test-check">✓</span> Process terminated immediately</div>
+                    <div class="test-item"><span class="test-check">✓</span> MBR automatically restored</div>
+                    <div class="test-item"><span class="test-check">✓</span> No process restart detected</div>
+                    <div class="test-item"><span class="test-check">✓</span> VMware Tools correctly skipped</div>
+                </div>
+                <div class="test-card">
+                    <h4><span class="test-success">✅</span> Watchdog Mutual Protection</h4>
+                    <div class="test-item"><span class="test-check">✓</span> All 4 processes terminated simultaneously</div>
+                    <div class="test-item"><span class="test-check">✓</span> No race condition during termination</div>
+                    <div class="test-item"><span class="test-check">✓</span> Complete process removal</div>
+                    <div class="test-item"><span class="test-check">✓</span> Executable files deleted</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Section -->
+        <section class="cta-section">
+            <h2 class="cta-title">Download TRAE Guardian</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 24px;">
+                Experience enterprise-grade endpoint security on your Windows system
+            </p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                📥 Download v1.0.0 Release
+            </a>
+            <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 12px;">
+                GitHub Release: <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases" style="color: var(--primary-color);">https://github.com/SaeedNo1/TRAE-Guardian/releases</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/issues">Issues</a>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/wiki">Documentation</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+                
+                // Update active class
+                document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

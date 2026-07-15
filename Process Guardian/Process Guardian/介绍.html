@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - 功能介绍与核心架构</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e8e8e8;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(168, 85, 247, 0.2) 100%);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #94a3b8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .toc {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .toc h2 {
+            font-size: 1.2em;
+            color: #a855f7;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .toc ul {
+            list-style: none;
+            columns: 2;
+            gap: 16px;
+        }
+
+        .toc li {
+            margin-bottom: 8px;
+        }
+
+        .toc a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .toc a:hover {
+            color: #a855f7;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #6366f1;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid rgba(99, 102, 241, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section h3 {
+            font-size: 1.4em;
+            color: #a855f7;
+            margin: 24px 0 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section h4 {
+            font-size: 1.2em;
+            color: #ec4899;
+            margin: 20px 0 12px;
+        }
+
+        .section p {
+            color: #cbd5e1;
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+
+        .section strong {
+            color: #f472b6;
+        }
+
+        .section code {
+            background: rgba(99, 102, 241, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: #60a5fa;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.95em;
+        }
+
+        .code-block {
+            background: #0f172a;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+            overflow-x: auto;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .code-block pre {
+            color: #e8e8e8;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+            white-space: pre;
+        }
+
+        .code-block .comment {
+            color: #6b7280;
+        }
+
+        .code-block .keyword {
+            color: #c084fc;
+        }
+
+        .code-block .type {
+            color: #60a5fa;
+        }
+
+        .code-block .function {
+            color: #a78bfa;
+        }
+
+        .code-block .variable {
+            color: #f472b6;
+        }
+
+        .code-block .string {
+            color: #4ade80;
+        }
+
+        .code-block .number {
+            color: #fb923c;
+        }
+
+        .list {
+            margin: 16px 0;
+            padding-left: 24px;
+        }
+
+        .list li {
+            color: #cbd5e1;
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 12px;
+        }
+
+        .list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #a855f7;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin: 16px 0;
+        }
+
+        .tech-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(15, 23, 42, 0.5);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .tech-table th,
+        .tech-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .tech-table th {
+            background: linear-gradient(90deg, rgba(99, 102, 241, 0.3), rgba(168, 85, 247, 0.3));
+            color: #a855f7;
+            font-weight: 600;
+        }
+
+        .tech-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tech-table tr:hover {
+            background: rgba(99, 102, 241, 0.1);
+        }
+
+        .tech-table td {
+            color: #cbd5e1;
+        }
+
+        .architecture-box {
+            background: #0f172a;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 16px 0;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85em;
+            color: #e8e8e8;
+            overflow-x: auto;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            white-space: pre;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+            border-left: 4px solid #a855f7;
+            padding: 16px 20px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: #f1f5f9;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.2);
+            color: #6366f1;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 0;
+            color: #64748b;
+            font-size: 0.9em;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .toc ul {
+                columns: 1;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .tech-table {
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TRAE Guardian</h1>
+            <p>纯用户态轻量化EDR+AV一体化终端安全防护平台</p>
+            <p style="margin-top: 12px; font-size: 0.95em;">基于Qt构建可视化管理界面，采用分层解耦多线程架构</p>
+        </div>
+
+        <div class="toc">
+            <h2>📋 目录</h2>
+            <ul>
+                <li><a href="#intro">一、项目简介</a></li>
+                <li><a href="#features">二、核心功能</a></li>
+                <li><a href="#architecture">三、核心架构</a></li>
+                <li><a href="#highlights">四、关键技术亮点</a></li>
+                <li><a href="#structure">五、项目结构</a></li>
+                <li><a href="#environment">六、运行环境</a></li>
+                <li><a href="#build">七、构建方式</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="intro">
+            <h2>一、项目简介</h2>
+            <p>TRAE Guardian 是一款<strong>纯用户态轻量化EDR+AV一体化终端安全防护平台</strong>，基于Qt构建可视化管理界面，采用分层解耦多线程架构，搭载统一AI风险评分中心、可配置规则引擎、进程状态机管控、标准化插件拓展接口，集成静态病毒扫描、全维度行为监控、底层磁盘/引导防护、分级自动响应、自保护防篡改、本地日志数据库六大核心体系，仅73MB体积实现个人终端、小型办公终端全场景安全防护。</p>
+        </div>
+
+        <div class="section" id="features">
+            <h2>二、核心功能</h2>
+
+            <h3>2.1 进程管理与监控</h3>
+            <ul class="list">
+                <li><strong>实时进程列表</strong>：展示系统所有进程及其详细信息（PID、内存占用、签名状态等）</li>
+                <li><strong>进程终止</strong>：支持单进程终止和树杀（终止进程及其子进程）</li>
+                <li><strong>重复查杀</strong>：自动监控并重复杀死指定进程，防止看门狗复活</li>
+                <li><strong>新进程观测</strong>：ETW捕获新进程创建后，自动进入5秒高频监控</li>
+            </ul>
+
+            <h3>2.2 恶意行为检测</h3>
+            <ul class="list">
+                <li><strong>物理磁盘访问拦截</strong>：通过句柄扫描检测<code>PhysicalDrive</code>、<code>Volume</code>等敏感设备访问</li>
+                <li><strong>MBR防护</strong>：开机备份MBR哈希，实时校验完整性，检测到篡改自动恢复</li>
+                <li><strong>注册表监控</strong>：监控Run键、服务配置、浏览器劫持项等高危路径</li>
+                <li><strong>文件静态扫描</strong>：PE结构解析、数字签名校验、SHA256哈希、恶意API导入检测</li>
+            </ul>
+
+            <h3>2.3 网络审计</h3>
+            <ul class="list">
+                <li><strong>TCP/UDP连接记录</strong>：记录所有进程网络连接</li>
+                <li><strong>DNS解析审计</strong>：监控域名解析行为</li>
+                <li><strong>网络访问限制</strong>：可限制可疑进程网络访问</li>
+            </ul>
+
+            <h3>2.4 AI智能分析</h3>
+            <ul class="list">
+                <li><strong>多维度风险评分</strong>：静态(25分) + 行为(40分) + 底层(18分) + AI(±8分)</li>
+                <li><strong>规则引擎</strong>：可配置规则，支持通配符匹配，无需修改源码即可新增规则</li>
+                <li><strong>分级响应</strong>：8级精细化处置策略（观测→通知→限制网络→暂停→终止→隔离→删除→黑名单）</li>
+            </ul>
+
+            <h3>2.5 自保护机制</h3>
+            <ul class="list">
+                <li><strong>GUI/守护进程互保</strong>：一方被终止，另一方自动拉起</li>
+                <li><strong>文件保护</strong>：程序文件被删除/覆盖时自动恢复</li>
+                <li><strong>配置保护</strong>：防护配置被篡改时一键回滚</li>
+            </ul>
+
+            <h3>2.6 可视化界面</h3>
+            <ul class="list">
+                <li><strong>实时风险看板</strong>：展示系统安全状态</li>
+                <li><strong>事件日志</strong>：完整安全事件记录，支持检索和导出</li>
+                <li><strong>进程列表</strong>：全量进程观测，支持筛选和操作</li>
+                <li><strong>AI对话</strong>：基于SiliconFlow的自然语言交互</li>
+            </ul>
+        </div>
+
+        <div class="section" id="architecture">
+            <h2>三、核心架构</h2>
+
+            <h3>3.1 整体架构分层</h3>
+            <div class="architecture-box">
+┌─────────────────────────────────────────────────────────────────┐
+│                    顶层交互层：Qt可视化GUI界面                    │
+│  主页 | 实时风险 | 进程列表 | 事件日志 | 隔离区 | 设置 | AI对话    │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              中枢调度层：三大核心调度模块                         │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐        │
+│  │   配置中心     │  │   日志中心     │  │ AI评分中心    │        │
+│  │  (JSON配置)   │  │ (SQLite数据库) │  │ (统一判定)    │        │
+│  └───────────────┘  └───────────────┘  └───────────────┘        │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              核心检测层：九大独立后台线程并行运行                  │
+│  ETW | 新进程观测 | 句柄扫描 | 高速扫描 | MBR防护 | 注册表防护   │
+│  文件扫描 | 网络审计 | AI分析                                    │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              执行响应层：分级响应中心 + 状态机                      │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐        │
+│  │   分级响应     │  │   状态机      │  │   规则引擎    │        │
+│  │  (8级处置)    │  │ (6态流转)     │  │ (可配置规则)  │        │
+│  └───────────────┘  └───────────────┘  └───────────────┘        │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│              拓展支撑层：三大长效拓展体系                         │
+│  标准化插件接口 | 自保护Anti-Tamper | 云端拓展预留               │
+└─────────────────────────────────────────────────────────────────┘
+            </div>
+
+            <h3>3.2 核心模块详解</h3>
+
+            <h4>3.2.1 事件驱动架构</h4>
+            <p>系统采用统一事件分发器<code>DispatchDetectEvent</code>串联所有模块：</p>
+            <div class="code-block">
+                <pre><span class="comment">// daemon_core.c - 事件分发器</span>
+<span class="keyword">void</span> <span class="function">DispatchDetectEvent</span>(<span class="type">DaemonState</span>* ds, <span class="type">DetectEvent</span>* event) {
+    <span class="comment">// 1. 规则引擎匹配</span>
+    <span class="type">RuleMatchResult</span> result = <span class="function">RuleEngineMatch</span>(ds->rules, event);
+    
+    <span class="comment">// 2. 评分中心打分</span>
+    <span class="type">ScoreEntry</span>* score = <span class="function">ScoreCenterUpdate</span>(ds->scores, event, result.score);
+    
+    <span class="comment">// 3. 状态机状态转换</span>
+    <span class="function">StateMachineTransition</span>(ds->sm, event->pid, score->totalScore);
+    
+    <span class="comment">// 4. 响应中心执行动作</span>
+    <span class="function">ResponseCenterExecute</span>(ds->rc, event, score->totalScore);
+}</pre>
+            </div>
+            <p><strong>支持的事件类型</strong>：</p>
+            <ul class="list">
+                <li><code>DETECT_EVENT_PROCESS_SPAWN</code>：进程创建</li>
+                <li><code>DETECT_EVENT_REGISTRY_WRITE</code>：注册表写入</li>
+                <li><code>DETECT_EVENT_REGISTRY_DELETE</code>：注册表删除</li>
+                <li><code>DETECT_EVENT_DISK_ACCESS</code>：磁盘访问</li>
+                <li><code>DETECT_EVENT_FILE_MODIFY</code>：文件修改</li>
+                <li><code>DETECT_EVENT_NETWORK_CONNECT</code>：网络连接</li>
+            </ul>
+
+            <h4>3.2.2 规则引擎</h4>
+            <p>规则引擎支持多条件组合匹配和通配符模式：</p>
+            <div class="code-block">
+                <pre><span class="comment">// rule_engine.c - 规则定义</span>
+<span class="keyword">typedef</span> <span class="keyword">struct</span> {
+    <span class="type">wchar_t</span> id[16];           <span class="comment">// 规则ID，如 R001</span>
+    <span class="type">wchar_t</span> name[128];        <span class="comment">// 规则名称</span>
+    <span class="type">wchar_t</span> description[512]; <span class="comment">// 规则描述</span>
+    <span class="type">RuleCondition</span> conditions[MAX_CONDITIONS];
+    <span class="type">int</span> score;                <span class="comment">// 匹配成功后增加的分数</span>
+    <span class="type">ResponseAction</span> action;    <span class="comment">// 默认响应动作</span>
+} <span class="type">DetectionRule</span>;
+
+<span class="comment">// 示例规则：未签名进程访问物理磁盘</span>
+<span class="comment">// R001: Unsigned process accessing physical disk</span>
+<span class="comment">// conditions: [UNSIGNED, PATH: *PhysicalDrive*]</span>
+<span class="comment">// score: +35, action: TERMINATE</span></pre>
+            </div>
+
+            <h4>3.2.3 评分中心</h4>
+            <p>多维度加权评分体系：</p>
+            <div class="code-block">
+                <pre><span class="comment">// score_center.c - 评分结构</span>
+<span class="keyword">typedef</span> <span class="keyword">struct</span> {
+    <span class="type">DWORD</span> pid;
+    <span class="type">wchar_t</span> name[64];
+    <span class="type">int</span> staticScore;        <span class="comment">// 静态扫描: 0-25分</span>
+    <span class="type">int</span> behaviorScore;      <span class="comment">// 行为监控: 0-40分</span>
+    <span class="type">int</span> kernelScore;        <span class="comment">// 底层监控: 0-18分</span>
+    <span class="type">int</span> aiScore;            <span class="comment">// AI研判: -10~+8分</span>
+    <span class="type">int</span> totalScore;         <span class="comment">// 总分 = 静态+行为+底层+AI</span>
+} <span class="type">ScoreEntry</span>;
+
+<span class="comment">// 分级阈值</span>
+<span class="keyword">#define</span> <span class="variable">THRESHOLD_OBSERVED</span>    <span class="number">10</span>   <span class="comment">// 进入观测状态</span>
+<span class="keyword">#define</span> <span class="variable">THRESHOLD_SUSPICIOUS</span>  <span class="number">35</span>   <span class="comment">// 标记可疑</span>
+<span class="keyword">#define</span> <span class="variable">THRESHOLD_RESTRICTED</span>  <span class="number">50</span>   <span class="comment">// 限制权限</span>
+<span class="keyword">#define</span> <span class="variable">THRESHOLD_QUARANTINED</span> <span class="number">70</span>   <span class="comment">// 隔离处置</span>
+<span class="keyword">#define</span> <span class="variable">THRESHOLD_REMOVED</span>     <span class="number">80</span>   <span class="comment">// 彻底清除</span></pre>
+            </div>
+
+            <h4>3.2.4 进程状态机</h4>
+            <p>6态单向流转状态机，确保处置逻辑清晰：</p>
+            <div class="code-block">
+                <pre><span class="comment">// state_machine.c - 状态定义</span>
+<span class="keyword">typedef</span> <span class="keyword">enum</span> {
+    <span class="variable">PROC_STATE_UNKNOWN</span> = <span class="number">0</span>,        <span class="comment">// 未知</span>
+    <span class="variable">PROC_STATE_OBSERVED</span>,           <span class="comment">// 观测中</span>
+    <span class="variable">PROC_STATE_SUSPICIOUS</span>,         <span class="comment">// 可疑</span>
+    <span class="variable">PROC_STATE_RESTRICTED</span>,         <span class="comment">// 受限</span>
+    <span class="variable">PROC_STATE_QUARANTINED</span>,        <span class="comment">// 隔离</span>
+    <span class="variable">PROC_STATE_REMOVED</span>,            <span class="comment">// 清除</span>
+    <span class="variable">PROC_STATE_WHITELISTED</span>,        <span class="comment">// 白名单</span>
+    <span class="variable">PROC_STATE_TRUSTED</span>             <span class="comment">// 信任</span>
+} <span class="type">ProcessState</span>;
+
+<span class="comment">// 状态流转规则：只能升级，不能降级（白名单/信任除外）</span>
+<span class="comment">// Unknown → Observed → Suspicious → Restricted → Quarantined → Removed</span></pre>
+            </div>
+
+            <h4>3.2.5 响应中心</h4>
+            <p>8级分级响应执行引擎：</p>
+            <div class="code-block">
+                <pre><span class="comment">// response_center.c - 响应动作</span>
+<span class="keyword">typedef</span> <span class="keyword">enum</span> {
+    <span class="variable">RESPONSE_NONE</span> = <span class="number">0</span>,
+    <span class="variable">RESPONSE_OBSERVE</span>,              <span class="comment">// 观测</span>
+    <span class="variable">RESPONSE_NOTIFY</span>,               <span class="comment">// 通知</span>
+    <span class="variable">RESPONSE_LIMIT_NETWORK</span>,        <span class="comment">// 限制网络</span>
+    <span class="variable">RESPONSE_SUSPEND_PROCESS</span>,      <span class="comment">// 暂停进程</span>
+    <span class="variable">RESPONSE_TERMINATE</span>,            <span class="comment">// 终止进程</span>
+    <span class="variable">RESPONSE_QUARANTINE</span>,           <span class="comment">// 隔离文件</span>
+    <span class="variable">RESPONSE_DELETE</span>,               <span class="comment">// 删除文件</span>
+    <span class="variable">RESPONSE_BLACKLIST</span>             <span class="comment">// 加入黑名单</span>
+} <span class="type">ResponseAction</span>;</pre>
+            </div>
+
+            <h3>3.3 线程模块</h3>
+            <ul class="list">
+                <li><strong>ETW监控线程</strong>：捕获进程创建、线程注入、模块加载、注册表修改、网络连接等内核事件</li>
+                <li><strong>句柄扫描线程</strong>：使用<code>NtQuerySystemInformation</code>枚举所有进程句柄，检测敏感设备访问（低频模式：1000ms间隔；高频模式：20ms间隔）</li>
+                <li><strong>MBR防护线程</strong>：开机备份512字节MBR哈希，常态5秒低频校验，检测到物理磁盘访问时切换50ms高频校验，哈希不一致时自动恢复</li>
+                <li><strong>注册表监控线程</strong>：使用<code>RegNotifyChangeKeyValue</code>监控Run键等高危路径，检测到修改时触发事件分发</li>
+            </ul>
+        </div>
+
+        <div class="section" id="highlights">
+            <h2>四、关键技术亮点</h2>
+            <div class="table-container">
+                <table class="tech-table">
+                    <thead>
+                        <tr>
+                            <th>技术创新点</th>
+                            <th>实现方式</th>
+                            <th>解决的问题</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>实时句柄扫描</strong></td>
+                            <td><code>NtQuerySystemInformation</code>枚举所有进程句柄</td>
+                            <td>前置拦截物理磁盘访问，杜绝MBR篡改</td>
+                        </tr>
+                        <tr>
+                            <td><strong>MBR哈希校验</strong></td>
+                            <td>开机备份512字节MBR，双频校验</td>
+                            <td>检测MBR篡改并自动恢复</td>
+                        </tr>
+                        <tr>
+                            <td><strong>进程状态机</strong></td>
+                            <td>6态单向流转，各模块仅提交证据</td>
+                            <td>消除多模块处置冲突，逻辑清晰</td>
+                        </tr>
+                        <tr>
+                            <td><strong>多维度评分</strong></td>
+                            <td>静态(25)+行为(40)+底层(18)+AI(±8)加权计分</td>
+                            <td>精准风险评估，减少误报漏报</td>
+                        </tr>
+                        <tr>
+                            <td><strong>可配置规则引擎</strong></td>
+                            <td>规则以JSON存储，支持通配符匹配</td>
+                            <td>新增规则无需修改源码</td>
+                        </tr>
+                        <tr>
+                            <td><strong>分级响应</strong></td>
+                            <td>8级精细化处置策略</td>
+                            <td>避免过度处置，保护正常程序</td>
+                        </tr>
+                        <tr>
+                            <td><strong>事件驱动架构</strong></td>
+                            <td>统一事件分发器串联所有模块</td>
+                            <td>模块解耦，易于拓展</td>
+                        </tr>
+                        <tr>
+                            <td><strong>自保护机制</strong></td>
+                            <td>GUI/守护进程互保，文件自动恢复</td>
+                            <td>防止恶意程序破坏防护体系</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section" id="structure">
+            <h2>五、项目结构</h2>
+            <div class="architecture-box">
+Process Guardian/
+├── bin/                    # 可执行文件和运行时依赖
+│   ├── trae_guardian_daemon.exe   # 守护进程
+│   ├── trae_guardian_qt.exe       # Qt GUI主程序
+│   ├── popup_notifier.exe         # 弹窗通知
+│   ├── create_config.exe          # 配置创建工具
+│   └── data/                     # 运行时数据
+├── daemon_core.c/h         # 核心守护逻辑
+├── etw_monitor.c/h         # ETW事件监控
+├── thread_modules.c/h      # 后台线程模块
+├── state_machine.c/h       # 进程状态机
+├── rule_engine.c/h         # 规则引擎
+├── score_center.c/h        # 评分中心
+├── response_center.c/h     # 响应中心
+├── pe_analysis.c/h         # PE文件分析
+├── network_monitor.c/h     # 网络监控
+├── trust_zone.c/h          # 信任白名单
+├── qt_gui/                 # Qt图形界面
+│   ├── mainwindow.cpp/h    # 主窗口
+│   ├── processtab.cpp/h    # 进程管理标签页
+│   ├── roguesoftwaretab.cpp/h # 恶意软件标签页
+│   ├── aichattab.cpp/h     # AI对话标签页
+│   └── livemonitortab.cpp/h # 实时监控标签页
+├── test/                   # 测试程序
+├── test_simulations/       # 病毒模拟测试
+└── data/                   # 配置模板
+            </div>
+        </div>
+
+        <div class="section" id="environment">
+            <h2>六、运行环境</h2>
+            <div class="highlight-box">
+                <p><strong>操作系统</strong>：Windows 10 1809 或更高版本</p>
+                <p><strong>权限要求</strong>：管理员权限（用于句柄扫描和进程终止）</p>
+                <p><strong>运行时依赖</strong>：Qt6运行时库、MinGW运行时库</p>
+                <p><strong>AI依赖</strong>：SiliconFlow API Key（可选）</p>
+            </div>
+        </div>
+
+        <div class="section" id="build">
+            <h2>七、构建方式</h2>
+            <h3>构建守护进程</h3>
+            <div class="code-block">
+                <pre><span class="comment">build_daemon_only.bat</span></pre>
+            </div>
+            <h3>构建Qt GUI</h3>
+            <div class="code-block">
+                <pre>cd qt_gui
+build_qt.bat</pre>
+            </div>
+            <h3>完整构建</h3>
+            <div class="code-block">
+                <pre><span class="comment">build.bat</span></pre>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>TRAE Guardian - 纯用户态轻量化EDR+AV一体化终端安全防护平台</p>
+            <p style="margin-top: 8px;">基于Qt框架构建 · 分层解耦多线程架构</p>
+        </div>
+    </div>
+</body>
+</html>

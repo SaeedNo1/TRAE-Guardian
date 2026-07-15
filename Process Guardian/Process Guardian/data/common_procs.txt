@@ -1,0 +1,91 @@
+﻿C:\Windows\System32\winlogon.exe
+C:\Windows\System32\dwm.exe
+C:\Windows\System32\DriverStore\FileRepository\u0367162.inf_amd64_d5a707f30644425d\B366469\atiesrxx.exe
+C:\Windows\System32\amdfendrsr.exe
+C:\Windows\System32\dasHost.exe
+C:\Windows\System32\DriverStore\FileRepository\u0367162.inf_amd64_d5a707f30644425d\B366469\atieclxx.exe
+C:\Windows\System32\ETDService.exe
+C:\Windows\System32\ETDCtrlHelper.exe
+C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_d70b02a5a438df3c\igfxCUIService.exe
+C:\Windows\System32\ETDCtrl.exe
+C:\Windows\System32\ctfmon.exe
+C:\Windows\System32\sihost.exe
+C:\Windows\System32\ETDTouch.exe
+C:\Windows\System32\spoolsv.exe
+C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_d70b02a5a438df3c\igfxEM.exe
+C:\Windows\System32\DriverStore\FileRepository\dax3_swc_aposvc.inf_amd64_b151d47a98d5dc22\DAX3API.exe
+D:\MyClaw\新建文件夹\cpolar.exe
+C:\Program Files (x86)\easyclaw\resources\tools\easyclawsrv.exe
+C:\Windows\System32\InputMethod\CHS\ChsIME.exe
+C:\Windows\System32\DriverStore\FileRepository\igcc_dch.inf_amd64_577475639d32bfed\OneApp.IGCC.WinService.exe
+C:\Windows\Lenovo\ImController\Service\Lenovo.Modern.ImController.exe
+C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\LenovoPcManagerService.exe
+C:\Program Files\Lenovo\LVA PRC Service\VoiceAssistantService.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\MpDefenderCoreService.exe
+C:\Program Files (x86)\Lenovo\SmartEngine\1.0.70.10091\LenovoSmartService.exe
+C:\Program Files\Microsoft OfficePLUS\3.16.0.46159\addin\MSOfficePLUSService.exe
+C:\Windows\System32\LNBITSSvc.exe
+C:\Windows\System32\DriverStore\FileRepository\dptf_cpu.inf_amd64_82b77f8c4618e2d0\esif_uf.exe
+C:\Program Files (x86)\Sangfor\SSL\SangforPWEx\SangforPWEx.exe
+C:\Windows\System32\drivers\SessionService.exe
+C:\Program Files\Lenovo\Lenovo Smart Appearance Components\Components\SmartAppearanceSVC.exe
+C:\Windows\System32\DriverStore\FileRepository\iaahcic.inf_amd64_4a7090a469e354f6\RstMwService.exe
+C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_b8f1bff0e3af96f2\RtkAudUService64.exe
+C:\Program Files\Microsoft SQL Server\90\Shared\sqlwriter.exe
+C:\Program Files\Oray\SunLogin\SunloginClient\SunloginClient.exe
+C:\Windows\System32\drivers\Lenovo\udc\Service\UDClientService.exe
+C:\Program Files (x86)\UniVPN\promote\UniVPNPromoteService.exe
+C:\Windows\System32\wlanext.exe
+C:\Users\BaikerrNO1\AppData\Local\winManager\FLServer.exe
+C:\Windows\System32\wbem\WmiApSrv.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\MsMpEng.exe
+C:\Windows\System32\DriverStore\FileRepository\dal.inf_amd64_0b214be229a13e84\jhi_service.exe
+C:\Windows\System32\Locator.exe
+C:\Windows\System32\DriverStore\FileRepository\DAX3_S~1.INF\DAX3API.exe
+C:\Program Files\WindowsApps\Microsoft.MicrosoftPCManager_3.21.7.0_x64__8wekyb3d8bbwe\PCManager\MSPCManagerService.exe
+C:\Program Files (x86)\Sangfor\SSL\SangforPWEx\SangforUDProtectEx.exe
+C:\Windows\System32\wbem\unsecapp.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\LnvSvcFdn.exe
+C:\Windows\System32\wbem\WmiPrvSE.exe
+C:\Program Files\Lenovo\Lenovo Smart Appearance Components\Components\FaceBeautify.exe
+C:\Program Files\Oray\SunLogin\SunloginClient\sunlogin_guard\64\sunlogin_guard.exe
+C:\Windows\System32\conhost.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\LenovoTray.exe
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\crashpad_handler.exe
+C:\Windows\System32\AggregatorHost.exe
+C:\Program Files (x86)\Lenovo\SmartEngine\1.0.70.10091\SmartEngineHost64.exe
+C:\Program Files (x86)\Lenovo\SmartEngine\1.0.70.10091\SmartEngineHost.exe
+C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.26042.110.0_x64__cw5n1h2txyewy\CrossDeviceService.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\Security\x64\wsctrl11.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\ResScheduler.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\WSPluginHost.exe
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.11701.50.0_x64__cw5n1h2txyewy\Dashboard\Widgets.exe
+C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe
+C:\Windows\System32\oobe\UserOOBEBroker.exe
+C:\Program Files (x86)\Microsoft\EdgeWebView\Application\149.0.4022.80\msedgewebview2.exe
+C:\Program Files (x86)\SogouInput\16.4.0.3984\SGTool.exe
+C:\Program Files (x86)\SogouInput\16.4.0.3984\SogouCloud.exe
+C:\Windows\System32\SearchIndexer.exe
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26050.15-0\NisSrv.exe
+C:\Windows\System32\SecurityHealthSystray.exe
+C:\Users\BaikerrNO1\AppData\Local\winManager\FLMgrTray.exe
+C:\$Recycle.Bin\S-1-5-21-2717751602-3193465299-596532006-1001\.0027000000074164b1d650fae742a981
+C:\Program Files\Microsoft Office\root\Office16\ONENOTEM.EXE
+C:\ProgramData\Lenovo\Udc\Hosts\x64\MessagingPlugin.exe
+C:\Windows\System32\DriverStore\FileRepository\sgx_psw.inf_amd64_ece153ca769ec179\aesm_service.exe
+C:\Windows\System32\DriverStore\FileRepository\iclsclient.inf_amd64_75ffca5eec865b4b\lib\SocketHeciServer.exe
+C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+C:\Program Files (x86)\Microsoft\Edge\Application\149.0.4022.80\elevation_service.exe
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe
+C:\Program Files\Microsoft Office\root\Office16\SDXHelper.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\EMDriverAssist.exe
+C:\Users\BaikerrNO1\AppData\Local\Kingsoft\WPS Office\12.1.0.26895\office6\wps.exe
+C:\Users\BaikerrNO1\AppData\Local\Kingsoft\WPS Office\12.1.0.26895\office6\promecefpluginhost.exe
+D:\电脑管家迁移文件\Trae CN\Trae CN.exe
+D:\电脑管家迁移文件\Trae CN\resources\app\modules\ai-agent\bin\agent-tool-host.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\Security\service\LAVService.exe
+C:\Program Files (x86)\Lenovo\PCManager\5.1.190.5202\Security\service\usysdiag.exe

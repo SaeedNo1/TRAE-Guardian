@@ -1,0 +1,201 @@
+{
+  "rules": [
+    {
+      "id": "R001",
+      "description": "Unsigned process opens PhysicalDrive handle",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 8,
+          "pattern": "PhysicalDrive*"
+        }
+      ],
+      "score": 35,
+      "severity": 3,
+      "module": 2,
+      "response": "terminate",
+      "enabled": true
+    },
+    {
+      "id": "R002",
+      "description": "Unsigned process modifies boot configuration",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 14,
+          "pattern": ""
+        }
+      ],
+      "score": 30,
+      "severity": 3,
+      "module": 2,
+      "response": "terminate",
+      "enabled": true
+    },
+    {
+      "id": "R003",
+      "description": "Unsigned process deletes system32 files",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 6,
+          "pattern": "*\System32\*"
+        }
+      ],
+      "score": 25,
+      "severity": 3,
+      "module": 2,
+      "response": "terminate",
+      "enabled": true
+    },
+    {
+      "id": "R004",
+      "description": "Unsigned process injects into other process",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 11,
+          "pattern": ""
+        }
+      ],
+      "score": 15,
+      "severity": 2,
+      "module": 1,
+      "response": "terminate",
+      "enabled": true
+    },
+    {
+      "id": "R005",
+      "description": "Process copies itself",
+      "conditions": [
+        {
+          "type": 12,
+          "pattern": ""
+        }
+      ],
+      "score": 5,
+      "severity": 1,
+      "module": 1,
+      "response": "observe",
+      "enabled": true
+    },
+    {
+      "id": "R006",
+      "description": "Unsigned process writes to system registry",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 5,
+          "pattern": "HKEY_LOCAL_MACHINE\SYSTEM\*"
+        }
+      ],
+      "score": 10,
+      "severity": 2,
+      "module": 1,
+      "response": "observe",
+      "enabled": true
+    },
+    {
+      "id": "R007",
+      "description": "Unsigned process deletes registry",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 5,
+          "pattern": "*"
+        }
+      ],
+      "score": 5,
+      "severity": 1,
+      "module": 1,
+      "response": "observe",
+      "enabled": true
+    },
+    {
+      "id": "R007a",
+      "description": "Unsigned process writes to Run/RunOnce keys (persistence)",
+      "conditions": [
+        {
+          "type": 1,
+          "pattern": ""
+        },
+        {
+          "type": 5,
+          "pattern": "*Run*"
+        }
+      ],
+      "score": 40,
+      "severity": 4,
+      "module": 1,
+      "response": "terminate",
+      "enabled": true
+    },
+    {
+      "id": "R008",
+      "description": "Signed process rapid network connections (whitelist friendly)",
+      "conditions": [
+        {
+          "type": 0,
+          "pattern": ""
+        },
+        {
+          "type": 7,
+          "pattern": ""
+        }
+      ],
+      "score": 0,
+      "severity": 0,
+      "module": 1,
+      "response": "none",
+      "enabled": true
+    },
+    {
+      "id": "R009",
+      "description": "Microsoft signed process - trusted",
+      "conditions": [
+        {
+          "type": 4,
+          "pattern": "*Microsoft*"
+        }
+      ],
+      "score": 0,
+      "severity": 0,
+      "module": 0,
+      "response": "trust",
+      "enabled": true
+    },
+    {
+      "id": "R010",
+      "description": "New process spawned - observe",
+      "conditions": [
+        {
+          "type": 9,
+          "pattern": ""
+        }
+      ],
+      "score": 0,
+      "severity": 0,
+      "module": 0,
+      "response": "observe",
+      "enabled": true
+    }
+  ]
+}

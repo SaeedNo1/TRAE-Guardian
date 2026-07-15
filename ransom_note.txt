@@ -1,0 +1,6 @@
+This computer has been infected with WannaCry ransomware.
+All your files have been encrypted.
+To decrypt your files, you must pay 300 USD in Bitcoin.
+Bitcoin address: 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
+WARNING: Do not shut down your computer.
+Your files will be permanently encrypted.

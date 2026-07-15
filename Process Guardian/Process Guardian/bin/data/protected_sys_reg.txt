@@ -1,0 +1,42 @@
+# System-critical registry paths. Any modification to these paths
+# will cause the offending process to be terminated immediately and
+# the registry value to be restored from the first-run snapshot.
+#
+# One full registry path per line. Use HKEY_LOCAL_MACHINE\... format.
+
+# Core persistence / authentication
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+
+# Windows Defender / Security Center
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisDrv
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdNisSvc
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdBoot
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WdFilter
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Security Center
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SecurityCenter
+
+# Device Guard / HVCI / Memory Integrity / Credential Guard
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+
+# Windows Firewall
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall
+
+# EventLog / Audit
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog
+
+# Group Policy / Windows Update / Signature updates
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Signature Updates

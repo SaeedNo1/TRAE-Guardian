@@ -1,0 +1,46 @@
+[2026-07-01 21:11:07] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=653
+[2026-07-01 21:11:07] HTTP 401: "Invalid token"
+[2026-07-01 21:11:47] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=17034
+[2026-07-01 21:11:47] HTTP 401: "Invalid token"
+[2026-07-01 21:28:17] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=17034
+[2026-07-01 21:28:18] HTTP 400: {"code":20015,"message":"The parameter is invalid. Please check again.","data":null}
+[2026-07-01 21:39:56] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=635
+[2026-07-01 21:40:23] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=17016
+[2026-07-01 21:40:23] HTTP 400: {"code":20015,"message":"The parameter is invalid. Please check again.","data":null}
+[2026-07-01 21:40:34] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=635
+[2026-07-01 22:06:50] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1252
+[2026-07-01 22:06:50] HTTP 400: {"code":20015,"message":"The parameter is invalid. Please check again.","data":null}
+[2026-07-01 22:19:03] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1280
+[2026-07-01 22:30:05] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1280
+[2026-07-01 22:31:22] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1578
+[2026-07-01 22:32:13] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1727
+[2026-07-01 22:33:03] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=2393
+[2026-07-01 22:33:56] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=16925
+[2026-07-02 07:09:11] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1280
+[2026-07-02 08:37:23] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=803
+[2026-07-02 08:37:27] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=704
+[2026-07-02 08:51:44] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=635
+[2026-07-02 09:44:41] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=848
+[2026-07-02 09:45:06] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=862
+[2026-07-02 09:45:17] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=763
+[2026-07-02 10:02:32] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=298
+[2026-07-02 10:02:43] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=808
+[2026-07-02 10:17:54] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=344
+[2026-07-02 10:18:05] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=854
+[2026-07-02 10:19:03] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1124
+[2026-07-02 10:19:18] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=914
+[2026-07-02 10:34:29] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=194
+[2026-07-02 10:34:36] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=704
+[2026-07-02 10:55:03] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=489
+[2026-07-02 10:55:13] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=999
+[2026-07-02 10:57:50] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1445
+[2026-07-02 10:58:48] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1346
+[2026-07-02 11:00:54] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=1668
+[2026-07-02 11:01:22] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=2178
+[2026-07-02 12:08:47] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=3197
+[2026-07-02 12:09:02] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=4434
+[2026-07-02 13:15:56] Connect failed
+[2026-07-02 14:31:47] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=3886
+[2026-07-02 14:38:02] Request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=635
+[2026-07-02 15:40:35] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=3928
+[2026-07-02 17:02:41] Stream request provider=api.siliconflow.cn endpoint=/v1/chat/completions model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B bodyLen=3858

@@ -1,0 +1,92 @@
+{
+  "whitelist": [
+    {
+      "hash": "",
+      "publisher": "AMD",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "NVIDIA Corporation",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Intel Corporation",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Oracle Corporation",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Apple Inc.",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Google LLC",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 2,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Microsoft Windows",
+      "path": "",
+      "version": "",
+      "name": "",
+      "flags": 66,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    },
+    {
+      "hash": "",
+      "publisher": "Microsoft Corporation",
+      "path": "C:\Windows\*",
+      "version": "",
+      "name": "",
+      "flags": 74,
+      "addedTime": 5056875,
+      "lastUsedTime": 5056875,
+      "hitCount": 0
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - Virus Protection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">🦠</div>
+        </div>
+        <h1>Virus Protection</h1>
+        <p class="tagline">Advanced malware detection and automatic response system</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="virus.html" class="active">Virus Protection</a></li>
+            <li><a href="rogue.html">Rogue Software</a></li>
+            <li><a href="ai.html">AI Integration</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="index.html#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="download-banner">
+            <h2>🚀 Get TRAE Guardian</h2>
+            <p>Download now and protect your system from malware</p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download v1.0.0
+            </a>
+        </div>
+
+        <section>
+            <h2>How Virus Protection Works</h2>
+            <div class="section-card">
+                <h3>Detection Pipeline</h3>
+                <p>TRAE Guardian's virus protection follows a multi-layer detection pipeline to ensure comprehensive threat coverage:</p>
+                <ul>
+                    <li><strong>Whitelist Check:</strong> Process is first checked against the whitelist database (compiler tools, system processes)</li>
+                    <li><strong>Signature Verification:</strong> Signed processes are handled by rogue software detection, not virus analysis</li>
+                    <li><strong>PE Analysis:</strong> Unsigned processes undergo PE header analysis, entropy detection, and import table examination</li>
+                    <li><strong>Heuristic Detection:</strong> Behavioral analysis based on process actions and system interactions</li>
+                    <li><strong>Rule Engine Matching:</strong> Configurable rules for specific threat patterns</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Key Detection Rules</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rule ID</th>
+                            <th>Description</th>
+                            <th>Score</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R001</td>
+                            <td>Physical disk access (PhysicalDrive/Harddisk/Volume)</td>
+                            <td>35</td>
+                            <td>Terminate + MBR restore</td>
+                        </tr>
+                        <tr>
+                            <td>R006</td>
+                            <td>SYSTEM registry modifications</td>
+                            <td>10</td>
+                            <td>Alert + Monitor</td>
+                        </tr>
+                        <tr>
+                            <td>R007a</td>
+                            <td>Run key write (auto-start)</td>
+                            <td>35</td>
+                            <td>Terminate</td>
+                        </tr>
+                        <tr>
+                            <td>R010</td>
+                            <td>Process spawn monitoring</td>
+                            <td>0 (observation)</td>
+                            <td>Track</td>
+                        </tr>
+                        <tr>
+                            <td>R015</td>
+                            <td>Direct Syscall detection (0F 05 instruction)</td>
+                            <td>50</td>
+                            <td>Immediate terminate</td>
+                        </tr>
+                        <tr>
+                            <td>R020</td>
+                            <td>NtRaiseHardError (BSOD API)</td>
+                            <td>50</td>
+                            <td>Immediate terminate</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Protection Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>MBR/GPT Protection</h3>
+                    <p>Automatic backup of MBR and GPT partition tables at startup. Real-time integrity checking with automatic restoration when modifications are detected. Protects against bootkit attacks like Rainbow Cat (MEMZ).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💿</div>
+                    <h3>Physical Disk Interception</h3>
+                    <p>Blocks unsigned processes from opening PhysicalDrive handles. Uses NtQuerySystemInformation to scan process handles for sensitive device paths like \Device\Harddisk0\DR0.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔫</div>
+                    <h3>Watchdog Group Termination</h3>
+                    <p>Simultaneous termination of mutually-protected malware processes. Opens all PROCESS_TERMINATE handles at once, then calls TerminateProcess simultaneously to eliminate race conditions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>High-Frequency Scanning</h3>
+                    <p>When ETW detects a new process, the state machine initiates 5 seconds of high-frequency (20ms interval) handle scanning to catch threats early.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>PE Analysis</h3>
+                    <p>Static analysis of PE headers including entropy detection, import table examination, and section analysis to identify packed or obfuscated malware.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Signature Verification</h3>
+                    <p>Windows Authenticode signature verification with caching. Signed processes are handled by rogue software detection to prevent false positives.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Test Results & Success Stories</h2>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>✅ Rainbow Cat (MEMZ)</h4>
+                    <p><strong>Status:</strong> Successfully Detected & Terminated</p>
+                    <br>
+                    <p><strong>Timeline:</strong></p>
+                    <ul>
+                        <li><span class="check-icon">✓</span> Process execution detected</li>
+                        <li><span class="check-icon">✓</span> Physical disk access detected (R001)</li>
+                        <li><span class="check-icon">✓</span> MBR modification detected</li>
+                        <li><span class="check-icon">✓</span> MBR automatically restored</li>
+                        <li><span class="check-icon">✓</span> Process terminated within seconds</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h4>✅ Watchdog Mutual Protection</h4>
+                    <p><strong>Status:</strong> Successfully Cracked</p>
+                    <br>
+                    <p><strong>Attack Scenario:</strong> 1 main process + 3 watchdog subprocesses with mutual monitoring</p>
+                    <ul>
+                        <li><span class="check-icon">✓</span> All 4 processes terminated simultaneously</li>
+                        <li><span class="check-icon">✓</span> No race condition during termination</li>
+                        <li><span class="check-icon">✓</span> No watchdog restart detected</li>
+                        <li><span class="check-icon">✓</span> Executable files deleted</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Response Thresholds</h2>
+            <div class="section-card">
+                <h3>Graded Response System</h3>
+                <p>TRAE Guardian uses a risk scoring system with time-decay to determine appropriate responses:</p>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Score</th>
+                                <th>Status</th>
+                                <th>Response</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0</td>
+                                <td>Observation</td>
+                                <td>Track process activity</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>Suspicious</td>
+                                <td>High-frequency monitoring</td>
+                            </tr>
+                            <tr>
+                                <td>50</td>
+                                <td>Restricted</td>
+                                <td>Limit process activities</td>
+                            </tr>
+                            <tr>
+                                <td>60</td>
+                                <td>Rogue Software</td>
+                                <td>Display in rogue software tab</td>
+                            </tr>
+                            <tr>
+                                <td>70</td>
+                                <td>Quarantined</td>
+                                <td>Terminate + quarantine</td>
+                            </tr>
+                            <tr>
+                                <td>80+</td>
+                                <td>Removed</td>
+                                <td>Terminate + file deletion</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="download-banner">
+            <h2>🛡️ Protect Your System from Malware</h2>
+            <p>TRAE Guardian's advanced virus protection stops threats before they cause damage</p>
+            <a href="https://gitee.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download Now
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="index.html">Home</a>
+            <a href="rogue.html">Rogue Software</a>
+            <a href="ai.html">AI Integration</a>
+            <a href="features.html">Features</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+</body>
+</html>

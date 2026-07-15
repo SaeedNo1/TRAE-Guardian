@@ -1,0 +1,41 @@
+纯用户态（R3）如何破局？弱化 Inline Hook 的平替方案
+
+既然不能在常规路径上 “拦截” Direct Syscall，我们可以在纯用户态采用“降维打击” 和 “事前 / 事后夹击”的策略，依然能把延迟和安全做到极致。
+
+策略一：利用 Windows 10/11 的 “进程减刑” 机制（MITIGATION_POLICY）
+
+这是纯用户态对抗恶意软件 / 流氓软件最强、最轻量、延迟为 0 的武器。
+
+你的 SYSTEM 守护程序在拉起其他脚本，或者在流氓软件启动时，可以使用 ⁠UpdateProcThreadAttribute⁠ API 给目标进程强行注入 Windows 内置的缓解策略（Mitigation Policies）：
+
+禁止非微软签名的 DLL 注入（Microsoft Signed Only）：
+
+直接从源头上封死无签名二进制文件的运行空间。
+
+禁用动态代码生成（Block Dynamic Code）：
+
+流氓软件和木马最喜欢在内存中动态申请（⁠VirtualAlloc⁠）一段内存，把 Shellcode 或者 Direct Syscall 汇编填进去然后执行。一旦开启这个策略，目标进程只要敢调用 ⁠VirtualAlloc⁠ 尝试赋予 ⁠PAGE_EXECUTE_READWRITE⁠ 权限，系统会直接拒绝，甚至直接闪退。你不需要 Hook，Windows 代替你完成了 μm 级拦截。
+
+策略二：利用 ⁠NtQuerySystemInformation⁠ 定时高效轮询内存（延迟 < 2ms）
+
+既然在 R3 拦截不到他们执行 Syscall 的那一瞬间，那就监控他们的内存现状。
+
+无签名程序要搞事（比如释放 PhysicsDrive 相关的攻击），必然需要在内存中寻找句柄或者开辟特殊内存区。
+
+你的守护程序可以使用未公开的 API ⁠NtQuerySystemInformation⁠ 配合 ⁠SystemExtendedHandleInformation⁠。
+
+它可以在 1-2 毫秒内，遍历当前系统里所有进程打开的句柄。
+
+怎么杀： 一旦发现某个 “无签名进程” 手里握着指向 ⁠\Device\PhysicalDrive0⁠ 的句柄，或者握着关键系统进程的 ⁠PROCESS_ALL_ACCESS⁠ 句柄，Trae Guardian 直接利用 SYSTEM 权限执行 ⁠TerminateProcess⁠ 物理超度它。
+
+策略三：R3 的最强防线 —— 抢占式的 “入口降维”
+
+既然无签名程序运行起来之后手段百出（Direct Syscall），那就在它刚要运行、还没运行的时候解决它。
+
+利用 TrustedInstaller 权限，你可以把 Trae Guardian 注册为 Windows 的 IFEO（Image File Execution Options，映像劫持） 守护者，或者通过监控创建进程。
+
+任何无签名程序双击启动的瞬间，在它的主线程还没吐出第一个 Syscall 之前，你的 SYSTEM 服务就会收到通知（或者直接由你拉起）。
+
+此时在 R3 实时计算文件哈希、校验签名。如果是无签名，直接阻止它启动。
+
+优势： 这种 “事前拦截” 完全不影响系统运行时的性能（不会像 Inline Hook 一样拖慢每次 API 调用），只有在软件启动时有几毫秒的验签延迟，用户完全无感

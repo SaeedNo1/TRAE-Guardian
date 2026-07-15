@@ -1,0 +1,10 @@
+﻿4424|佒呕⹅塅E|C:\Windows\System32\spoolsv.exe|2026-07-15 13:40:26
+3112|scrnsave.scr|C:\Windows\System32\scrnsave.scr|2026-07-15 13:42:10
+17476|Locator.exe|C:\Windows\System32\Locator.exe|2026-07-15 13:42:25
+15120|netsh.exe|C:\Windows\System32\netsh.exe|2026-07-15 13:45:22
+8796|敮獴⹨硥e|C:\Windows\System32\cmd.exe|2026-07-15 13:46:07
+13244|ROUTE.EXE|C:\Windows\System32\ROUTE.EXE|2026-07-15 13:54:46
+18480|佒呕⹅塅E|C:\Windows\System32\spoolsv.exe|2026-07-15 13:54:50
+18276|潣桮獯⹴硥e|C:\Windows\System32\cmd.exe|2026-07-15 13:55:57
+1244|捳湲慳敶献牣|C:\Windows\System32\winlogon.exe|2026-07-15 13:56:58
+13800|佒呕⹅塅E|C:\Windows\System32\spoolsv.exe|2026-07-15 14:02:35

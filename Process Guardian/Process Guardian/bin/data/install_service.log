@@ -1,0 +1,843 @@
+[2026-06-24 22:05:15] Install started
+[2026-06-24 22:05:16] Service already exists
+[2026-06-24 22:05:16] Service already running
+[2026-06-24 22:05:16] Install finished
+[2026-06-24 22:07:23] Uninstall started
+[2026-06-24 22:07:34] Service deleted
+[2026-06-24 22:08:00] Install started
+[2026-06-24 22:08:01] Service created
+[2026-06-24 22:08:01] Service start command sent
+[2026-06-24 22:08:02] Install finished
+[2026-06-24 22:08:56] Uninstall started
+[2026-06-24 22:08:56] Killed old process trae_guardian_service_wrapper.exe PID=27044
+[2026-06-24 22:08:56] Killed old process trae_guardian_daemon.exe PID=14296
+[2026-06-24 22:09:07] Service deleted
+[2026-06-24 22:10:55] Install started
+[2026-06-24 22:10:56] Service created
+[2026-06-24 22:10:56] Service start command sent
+[2026-06-24 22:10:57] Install finished
+[2026-06-25 08:13:27] Install started
+[2026-06-25 08:13:27] Killed old process trae_guardian_service_wrapper.exe PID=6836
+[2026-06-25 08:13:27] Killed old process trae_guardian_daemon.exe PID=7980
+[2026-06-25 08:13:28] Service already exists
+[2026-06-25 08:13:28] Service start command sent
+[2026-06-25 08:13:29] Install finished
+[2026-06-25 08:35:29] Install started
+[2026-06-25 08:35:30] Service already exists
+[2026-06-25 08:35:30] Service start command sent
+[2026-06-25 08:35:31] Install finished
+[2026-06-25 08:35:56] Uninstall started
+[2026-06-25 08:35:56] Killed old process trae_guardian_service_wrapper.exe PID=4992
+[2026-06-25 08:35:56] Killed old process trae_guardian_daemon.exe PID=16120
+[2026-06-25 08:36:07] Service deleted
+[2026-06-25 12:24:56] Install started
+[2026-06-25 12:24:57] Service created
+[2026-06-25 12:24:57] Service start command sent
+[2026-06-25 12:24:58] Install finished
+[2026-06-25 20:34:31] Install started
+[2026-06-25 20:34:31] Service already exists
+[2026-06-25 20:34:32] Service start command sent
+[2026-06-25 20:34:33] Install finished
+[2026-06-25 21:21:15] Uninstall started
+[2026-06-25 21:21:26] Service deleted
+[2026-06-25 22:12:08] Install started
+[2026-06-25 22:12:09] Service created
+[2026-06-25 22:12:09] Service start command sent
+[2026-06-25 22:12:10] Install finished
+[2026-06-25 22:13:25] Install started
+[2026-06-25 22:13:25] Killed old process trae_guardian_service_wrapper.exe PID=7208
+[2026-06-25 22:13:25] Killed old process trae_guardian_daemon.exe PID=3192
+[2026-06-25 22:13:25] Service already exists
+[2026-06-25 22:13:25] Service start command sent
+[2026-06-25 22:13:26] Install finished
+[2026-06-25 22:21:08] Install started
+[2026-06-25 22:21:08] Killed old process trae_guardian_service_wrapper.exe PID=18348
+[2026-06-25 22:21:08] Killed old process trae_guardian_daemon.exe PID=12516
+[2026-06-25 22:21:09] Service already exists
+[2026-06-25 22:21:09] Service start command sent
+[2026-06-25 22:21:10] Install finished
+[2026-06-25 22:21:26] Install started
+[2026-06-25 22:21:26] Killed old process trae_guardian_service_wrapper.exe PID=7936
+[2026-06-25 22:21:26] Killed old process trae_guardian_daemon.exe PID=5548
+[2026-06-25 22:21:27] Service already exists
+[2026-06-25 22:21:27] Service start command sent
+[2026-06-25 22:21:28] Install finished
+[2026-06-25 22:23:12] Install started
+[2026-06-25 22:23:12] Killed old process trae_guardian_service_wrapper.exe PID=8264
+[2026-06-25 22:23:12] Killed old process trae_guardian_daemon.exe PID=9512
+[2026-06-25 22:23:13] Service already exists
+[2026-06-25 22:23:13] Service start command sent
+[2026-06-25 22:23:14] Install finished
+[2026-06-26 07:30:49] Install started
+[2026-06-26 07:30:50] Service already exists
+[2026-06-26 07:30:50] Service start command sent
+[2026-06-26 07:30:51] Install finished
+[2026-06-26 07:31:57] Install started
+[2026-06-26 07:31:57] Killed old process trae_guardian_service_wrapper.exe PID=14832
+[2026-06-26 07:31:57] Killed old process trae_guardian_daemon.exe PID=3444
+[2026-06-26 07:31:58] Service already exists
+[2026-06-26 07:31:59] Service start command sent
+[2026-06-26 07:32:00] Install finished
+[2026-06-27 11:16:53] Install started
+[2026-06-27 11:16:53] Killed old process trae_guardian_service_wrapper.exe PID=6436
+[2026-06-27 11:16:53] Killed old process trae_guardian_daemon.exe PID=8092
+[2026-06-27 11:16:54] Service already exists
+[2026-06-27 11:16:55] Service start command sent
+[2026-06-27 11:16:56] Install finished
+[2026-06-27 11:20:16] Install started
+[2026-06-27 11:20:16] Killed old process trae_guardian_service_wrapper.exe PID=11308
+[2026-06-27 11:20:16] Killed old process trae_guardian_daemon.exe PID=9176
+[2026-06-27 11:20:17] Service already exists
+[2026-06-27 11:20:17] Service start command sent
+[2026-06-27 11:20:18] Install finished
+[2026-06-27 11:20:50] Install started
+[2026-06-27 11:20:50] Killed old process trae_guardian_service_wrapper.exe PID=19420
+[2026-06-27 11:20:50] Killed old process trae_guardian_daemon.exe PID=18464
+[2026-06-27 11:20:51] Service already exists
+[2026-06-27 11:20:51] Service start command sent
+[2026-06-27 11:20:52] Install finished
+[2026-06-27 11:31:19] Install started
+[2026-06-27 11:31:20] Service already exists
+[2026-06-27 11:31:20] Service start command sent
+[2026-06-27 11:31:21] Install finished
+[2026-06-30 18:31:36] Uninstall started
+[2026-06-30 18:31:36] Killed old process trae_guardian_service_wrapper.exe PID=5416
+[2026-06-30 18:31:36] Killed old process trae_guardian_daemon.exe PID=6912
+[2026-06-30 18:31:47] Service deleted
+[2026-06-30 18:36:56] Install started
+[2026-06-30 18:36:56] Service created
+[2026-06-30 18:36:57] Service start command sent
+[2026-06-30 18:36:58] Install finished
+[2026-06-30 18:37:42] Install started
+[2026-06-30 18:37:43] Service already exists
+[2026-06-30 18:37:43] Service start command sent
+[2026-06-30 18:37:44] Install finished
+[2026-06-30 20:39:03] Install started
+[2026-06-30 20:39:04] Service already exists
+[2026-06-30 20:39:04] StartService failed: 2
+[2026-06-30 20:39:38] Install started
+[2026-06-30 20:39:39] Service already exists
+[2026-06-30 20:39:39] StartService failed: 2
+[2026-07-02 15:39:46] Install started
+[2026-07-02 15:39:47] Service already exists
+[2026-07-02 15:39:47] StartService failed: 2
+[2026-07-02 15:40:07] Install started
+[2026-07-02 15:40:08] Service already exists
+[2026-07-02 15:40:08] StartService failed: 2
+[2026-07-02 17:03:38] Install started
+[2026-07-02 17:03:38] Service already exists
+[2026-07-02 17:03:38] StartService failed: 2
+[2026-07-02 17:03:48] Install started
+[2026-07-02 17:03:49] Service already exists
+[2026-07-02 17:03:49] StartService failed: 2
+[2026-07-02 17:32:40] Install started
+[2026-07-02 17:32:40] Wrapper path: C
+[2026-07-02 17:32:41] Service already exists
+[2026-07-02 17:32:41] StartService failed because image path is invalid, recreating service
+[2026-07-02 17:32:41] Service recreated
+[2026-07-02 17:32:41] StartService after recreate failed: 2
+[2026-07-02 17:58:49] Install started
+[2026-07-02 17:58:49] Wrapper path: C\t
+[2026-07-02 17:58:49] Service already exists
+[2026-07-02 17:58:49] StartService failed because image path is invalid, recreating service
+[2026-07-02 17:58:49] Waiting for old service to be removed
+[2026-07-02 17:58:49] Service recreated with path: C\t
+[2026-07-02 17:58:49] StartService after recreate failed: 2
+[2026-07-02 17:59:42] Install started
+[2026-07-02 17:59:42] Wrapper path: C\t
+[2026-07-02 17:59:42] Service already exists
+[2026-07-02 17:59:42] StartService failed because image path is invalid, recreating service
+[2026-07-02 17:59:42] Waiting for old service to be removed
+[2026-07-02 17:59:42] Service recreated with path: C\t
+[2026-07-02 17:59:42] StartService after recreate failed: 2
+[2026-07-02 18:28:51] Install started
+[2026-07-02 18:28:51] Wrapper path: C\t
+[2026-07-02 18:28:52] Service already exists
+[2026-07-02 18:28:52] StartService failed because image path is invalid, recreating service
+[2026-07-02 18:28:52] Waiting for old service to be removed
+[2026-07-02 18:28:52] Service recreated with path: C\t
+[2026-07-02 18:28:52] StartService after recreate failed: 2
+[2026-07-02 18:29:56] Install started
+[2026-07-02 18:29:56] Wrapper path: C\t
+[2026-07-02 18:29:56] Service already exists
+[2026-07-02 18:29:56] StartService failed because image path is invalid, recreating service
+[2026-07-02 18:29:56] Waiting for old service to be removed
+[2026-07-02 18:29:56] Service recreated with path: C\t
+[2026-07-02 18:29:56] StartService after recreate failed: 2
+[2026-07-02 18:50:28] Install started
+[2026-07-02 18:50:28] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 18:50:28] Service already exists
+[2026-07-02 18:50:28] StartService failed: 193
+[2026-07-02 18:50:46] Install started
+[2026-07-02 18:50:46] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 18:50:47] Service already exists
+[2026-07-02 18:50:47] StartService failed: 193
+[2026-07-02 19:13:07] Install started
+[2026-07-02 19:13:07] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 19:13:08] Service already exists
+[2026-07-02 19:13:08] StartService failed: 193
+[2026-07-02 19:31:15] Install started
+[2026-07-02 19:31:15] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 19:31:16] Service already exists, deleting to ensure clean config
+[2026-07-02 19:31:16] Waiting for old service to be removed
+[2026-07-02 19:31:16] Service recreated
+[2026-07-02 19:31:16] StartService failed: 193, recreating service
+[2026-07-02 19:31:16] Waiting for old service to be removed
+[2026-07-02 19:31:16] Service recreated with path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 19:31:16] StartService after recreate failed: 193
+[2026-07-02 21:38:06] Install started
+[2026-07-02 21:38:06] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 21:38:07] Service already exists, deleting to ensure clean config
+[2026-07-02 21:38:07] Waiting for old service to be removed
+[2026-07-02 21:38:07] Service recreated
+[2026-07-02 21:38:07] Service start command sent
+[2026-07-02 21:38:08] Install finished
+[2026-07-02 22:27:03] Install started
+[2026-07-02 22:27:03] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 22:27:04] Service already exists, deleting to ensure clean config
+[2026-07-02 22:27:04] Waiting for old service to be removed
+[2026-07-02 22:27:04] Service recreated
+[2026-07-02 22:27:04] Service start command sent
+[2026-07-02 22:27:05] Install finished
+[2026-07-02 22:32:43] Install started
+[2026-07-02 22:32:43] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-02 22:32:44] Service already exists, deleting to ensure clean config
+[2026-07-02 22:32:44] Waiting for old service to be removed
+[2026-07-02 22:32:44] Service recreated
+[2026-07-02 22:32:44] Service start command sent
+[2026-07-02 22:32:45] Install finished
+[2026-07-03 09:26:16] Install started
+[2026-07-03 09:26:16] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 09:26:17] Service already exists, deleting to ensure clean config
+[2026-07-03 09:26:17] Waiting for old service to be removed
+[2026-07-03 09:26:17] Service recreated
+[2026-07-03 09:26:17] Service start command sent
+[2026-07-03 09:26:18] Install finished
+[2026-07-03 09:44:17] Install started
+[2026-07-03 09:44:17] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 09:44:18] Service already exists, deleting to ensure clean config
+[2026-07-03 09:44:18] Waiting for old service to be removed
+[2026-07-03 09:44:18] Service recreated
+[2026-07-03 09:44:18] Service start command sent
+[2026-07-03 09:44:19] Install finished
+[2026-07-03 10:09:05] Install started
+[2026-07-03 10:09:05] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 10:09:06] Service already exists, deleting to ensure clean config
+[2026-07-03 10:09:06] Waiting for old service to be removed
+[2026-07-03 10:09:06] Service recreated
+[2026-07-03 10:09:06] Service start command sent
+[2026-07-03 10:09:07] Install finished
+[2026-07-03 12:07:29] Install started
+[2026-07-03 12:07:29] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 12:07:30] Service already exists, deleting to ensure clean config
+[2026-07-03 12:07:30] Waiting for old service to be removed
+[2026-07-03 12:07:30] Service recreated
+[2026-07-03 12:07:30] Service start command sent
+[2026-07-03 12:07:31] Install finished
+[2026-07-03 12:39:55] Install started
+[2026-07-03 12:39:55] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 12:39:56] Service already exists, deleting to ensure clean config
+[2026-07-03 12:39:56] Waiting for old service to be removed
+[2026-07-03 12:39:56] Service recreated
+[2026-07-03 12:39:56] Service start command sent
+[2026-07-03 12:39:57] Install finished
+[2026-07-03 14:31:12] Install started
+[2026-07-03 14:31:12] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 14:31:13] Service already exists, deleting to ensure clean config
+[2026-07-03 14:31:13] Waiting for old service to be removed
+[2026-07-03 14:31:13] Service recreated
+[2026-07-03 14:31:13] Service start command sent
+[2026-07-03 14:31:14] Install finished
+[2026-07-03 15:16:40] Install started
+[2026-07-03 15:16:40] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 15:16:40] Service already exists, deleting to ensure clean config
+[2026-07-03 15:16:40] Waiting for old service to be removed
+[2026-07-03 15:16:41] Service recreated
+[2026-07-03 15:16:41] Service start command sent
+[2026-07-03 15:16:42] Install finished
+[2026-07-03 15:46:36] Install started
+[2026-07-03 15:46:36] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 15:46:37] Service already exists, deleting to ensure clean config
+[2026-07-03 15:46:37] Waiting for old service to be removed
+[2026-07-03 15:46:37] Service recreated
+[2026-07-03 15:46:37] Service start command sent
+[2026-07-03 15:46:38] Install finished
+[2026-07-03 16:42:23] Install started
+[2026-07-03 16:42:23] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 16:42:24] Service already exists, deleting to ensure clean config
+[2026-07-03 16:42:24] Waiting for old service to be removed
+[2026-07-03 16:42:24] Service recreated
+[2026-07-03 16:42:24] Service start command sent
+[2026-07-03 16:42:25] Install finished
+[2026-07-03 17:11:34] Install started
+[2026-07-03 17:11:34] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 17:11:35] Service already exists, deleting to ensure clean config
+[2026-07-03 17:11:35] Waiting for old service to be removed
+[2026-07-03 17:11:35] Service recreated
+[2026-07-03 17:11:35] Service start command sent
+[2026-07-03 17:11:36] Install finished
+[2026-07-03 18:43:00] Install started
+[2026-07-03 18:43:00] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 18:43:00] Killed old process trae_guardian_daemon.exe PID=360
+[2026-07-03 18:43:00] Service already exists, deleting to ensure clean config
+[2026-07-03 18:43:00] Waiting for old service to be removed
+[2026-07-03 18:43:01] Service recreated
+[2026-07-03 18:43:01] Service start command sent
+[2026-07-03 18:43:02] Install finished
+[2026-07-03 19:50:40] Install started
+[2026-07-03 19:50:40] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 19:50:40] Service already exists, deleting to ensure clean config
+[2026-07-03 19:50:40] Waiting for old service to be removed
+[2026-07-03 19:50:40] Service recreated
+[2026-07-03 19:50:40] Service start command sent
+[2026-07-03 19:50:41] Install finished
+[2026-07-03 19:51:16] Install started
+[2026-07-03 19:51:16] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-03 19:51:17] Service already exists, deleting to ensure clean config
+[2026-07-03 19:51:17] Waiting for old service to be removed
+[2026-07-03 19:51:17] Service recreated
+[2026-07-03 19:51:17] Service start command sent
+[2026-07-03 19:51:18] Install finished
+[2026-07-06 19:06:59] Install started
+[2026-07-06 19:06:59] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-06 19:07:00] Service created
+[2026-07-06 19:07:00] Service start command sent
+[2026-07-06 19:07:01] Install finished
+[2026-07-07 09:45:08] Install started
+[2026-07-07 09:45:08] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 09:45:08] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 09:45:09] Service already exists, deleting to ensure clean config
+[2026-07-07 09:45:09] Waiting for old service to be removed
+[2026-07-07 09:45:09] Service recreated
+[2026-07-07 09:45:10] Service start command sent
+[2026-07-07 09:45:11] Install finished
+[2026-07-07 11:52:03] Install started
+[2026-07-07 11:52:03] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 11:52:03] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 11:52:03] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 11:52:03] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 11:52:03] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 11:52:04] Service already exists, deleting to ensure clean config
+[2026-07-07 11:52:04] Waiting for old service to be removed
+[2026-07-07 11:52:04] Service recreated
+[2026-07-07 11:52:04] Service start command sent
+[2026-07-07 11:52:05] Install finished
+[2026-07-07 12:19:32] Install started
+[2026-07-07 12:19:32] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 12:19:32] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 12:19:32] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 12:19:32] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 12:19:32] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 12:19:33] Service already exists, deleting to ensure clean config
+[2026-07-07 12:19:33] Waiting for old service to be removed
+[2026-07-07 12:19:33] Service recreated
+[2026-07-07 12:19:33] Service start command sent
+[2026-07-07 12:19:34] Install finished
+[2026-07-07 12:22:00] Install started
+[2026-07-07 12:22:00] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 12:22:00] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 12:22:00] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 12:22:00] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 12:22:00] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 12:22:01] Service already exists, deleting to ensure clean config
+[2026-07-07 12:22:01] Waiting for old service to be removed
+[2026-07-07 12:22:01] Service recreated
+[2026-07-07 12:22:01] Service start command sent
+[2026-07-07 12:22:02] Install finished
+[2026-07-07 14:37:45] Install started
+[2026-07-07 14:37:45] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 14:37:45] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 14:37:45] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 14:37:45] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 14:37:45] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 14:37:46] Service already exists, deleting to ensure clean config
+[2026-07-07 14:37:46] Waiting for old service to be removed
+[2026-07-07 14:37:46] Service recreated
+[2026-07-07 14:37:46] Service start command sent
+[2026-07-07 14:37:47] Install finished
+[2026-07-07 15:02:02] Install started
+[2026-07-07 15:02:02] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:02:02] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:02:02] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:02:02] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:02:02] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:02:02] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:02:03] Service already exists, deleting to ensure clean config
+[2026-07-07 15:02:03] Waiting for old service to be removed
+[2026-07-07 15:02:03] Service recreated
+[2026-07-07 15:02:03] Service start command sent
+[2026-07-07 15:02:04] Install finished
+[2026-07-07 15:02:20] Install started
+[2026-07-07 15:02:20] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:02:20] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:02:20] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:02:20] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:02:20] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:02:20] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:02:21] Killed old process trae_guardian_daemon.exe PID=22300
+[2026-07-07 15:02:21] Service already exists, deleting to ensure clean config
+[2026-07-07 15:02:21] Waiting for old service to be removed
+[2026-07-07 15:02:31] Old service still not removed, cannot recreate
+[2026-07-07 15:02:36] Install started
+[2026-07-07 15:02:36] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:02:36] Killed old process trae_guardian_daemon.exe PID=22300
+[2026-07-07 15:02:37] Service already exists, deleting to ensure clean config
+[2026-07-07 15:02:37] Waiting for old service to be removed
+[2026-07-07 15:02:47] Old service still not removed, cannot recreate
+[2026-07-07 15:04:27] Install started
+[2026-07-07 15:04:27] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:04:27] Killed old process trae_guardian_daemon.exe PID=22300
+[2026-07-07 15:04:28] Service already exists, deleting to ensure clean config
+[2026-07-07 15:04:28] Waiting for old service to be removed
+[2026-07-07 15:04:38] Old service still not removed, cannot recreate
+[2026-07-07 15:34:05] Install started
+[2026-07-07 15:34:05] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:34:05] Killed old process trae_guardian_daemon.exe PID=22300
+[2026-07-07 15:34:06] Service already exists, deleting to ensure clean config
+[2026-07-07 15:34:06] Waiting for old service to be removed
+[2026-07-07 15:34:06] Service recreated
+[2026-07-07 15:34:06] Service start command sent
+[2026-07-07 15:34:07] Install finished
+[2026-07-07 15:58:09] Install started
+[2026-07-07 15:58:09] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=3924
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=4488
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=17700
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=15664
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=3216
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=22300
+[2026-07-07 15:58:09] Killed old process trae_guardian_daemon.exe PID=21772
+[2026-07-07 15:58:10] Service already exists, deleting to ensure clean config
+[2026-07-07 15:58:10] Waiting for old service to be removed
+[2026-07-07 15:58:10] Service recreated
+[2026-07-07 15:58:10] Service start command sent
+[2026-07-07 15:58:11] Install finished
+[2026-07-07 22:13:08] Install started
+[2026-07-07 22:13:08] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-07 22:13:08] Service already exists, deleting to ensure clean config
+[2026-07-07 22:13:08] Waiting for old service to be removed
+[2026-07-07 22:13:08] Service recreated
+[2026-07-07 22:13:08] Service start command sent
+[2026-07-07 22:13:09] Install finished
+[2026-07-08 07:49:15] Install started
+[2026-07-08 07:49:15] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 07:49:16] Service already exists, deleting to ensure clean config
+[2026-07-08 07:49:16] Waiting for old service to be removed
+[2026-07-08 07:49:16] Service recreated
+[2026-07-08 07:49:16] Service start command sent
+[2026-07-08 07:49:17] Install finished
+[2026-07-08 09:38:57] Install started
+[2026-07-08 09:38:57] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 09:38:58] Service already exists, deleting to ensure clean config
+[2026-07-08 09:38:58] Waiting for old service to be removed
+[2026-07-08 09:38:58] Service recreated
+[2026-07-08 09:38:58] Service start command sent
+[2026-07-08 09:38:59] Install finished
+[2026-07-08 09:39:19] Install started
+[2026-07-08 09:39:19] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 09:39:19] Killed old process trae_guardian_daemon.exe PID=16824
+[2026-07-08 09:39:19] Service already exists, deleting to ensure clean config
+[2026-07-08 09:39:19] Waiting for old service to be removed
+[2026-07-08 09:39:19] Service recreated
+[2026-07-08 09:39:19] Service start command sent
+[2026-07-08 09:39:20] Install finished
+[2026-07-08 09:39:49] Install started
+[2026-07-08 09:39:49] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 09:39:49] Killed old process trae_guardian_daemon.exe PID=16824
+[2026-07-08 09:39:49] Killed old process trae_guardian_daemon.exe PID=4720
+[2026-07-08 09:39:50] Service already exists, deleting to ensure clean config
+[2026-07-08 09:39:50] Waiting for old service to be removed
+[2026-07-08 09:39:50] Service recreated
+[2026-07-08 09:39:50] Service start command sent
+[2026-07-08 09:39:51] Install finished
+[2026-07-08 09:40:04] Install started
+[2026-07-08 09:40:04] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 09:40:04] Killed old process trae_guardian_daemon.exe PID=16824
+[2026-07-08 09:40:04] Killed old process trae_guardian_daemon.exe PID=4720
+[2026-07-08 09:40:04] Killed old process trae_guardian_daemon.exe PID=23964
+[2026-07-08 09:40:05] Service already exists, deleting to ensure clean config
+[2026-07-08 09:40:05] Waiting for old service to be removed
+[2026-07-08 09:40:05] Service recreated
+[2026-07-08 09:40:05] Service start command sent
+[2026-07-08 09:40:06] Install finished
+[2026-07-08 09:53:46] Install started
+[2026-07-08 09:53:46] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 09:53:46] Killed old process trae_guardian_daemon.exe PID=16824
+[2026-07-08 09:53:46] Killed old process trae_guardian_daemon.exe PID=4720
+[2026-07-08 09:53:46] Killed old process trae_guardian_daemon.exe PID=23964
+[2026-07-08 09:53:46] Killed old process trae_guardian_daemon.exe PID=20112
+[2026-07-08 09:53:46] Killed old process trae_guardian_daemon.exe PID=21660
+[2026-07-08 09:53:47] Service already exists, deleting to ensure clean config
+[2026-07-08 09:53:47] Waiting for old service to be removed
+[2026-07-08 09:53:47] Service recreated
+[2026-07-08 09:53:47] Service start command sent
+[2026-07-08 09:53:48] Install finished
+[2026-07-08 10:08:39] Install started
+[2026-07-08 10:08:39] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 10:08:39] Killed old process trae_guardian_daemon.exe PID=16824
+[2026-07-08 10:08:39] Killed old process trae_guardian_daemon.exe PID=4720
+[2026-07-08 10:08:39] Killed old process trae_guardian_daemon.exe PID=23964
+[2026-07-08 10:08:39] Killed old process trae_guardian_daemon.exe PID=20112
+[2026-07-08 10:08:39] Killed old process trae_guardian_daemon.exe PID=21660
+[2026-07-08 10:08:40] Service already exists, deleting to ensure clean config
+[2026-07-08 10:08:40] Waiting for old service to be removed
+[2026-07-08 10:08:40] Service recreated
+[2026-07-08 10:08:40] Service start command sent
+[2026-07-08 10:08:41] Install finished
+[2026-07-08 14:12:44] Install started
+[2026-07-08 14:12:44] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Trae Guardian\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 14:12:45] Service already exists, deleting to ensure clean config
+[2026-07-08 14:12:45] Waiting for old service to be removed
+[2026-07-08 14:12:45] Service recreated
+[2026-07-08 14:12:45] Service start command sent
+[2026-07-08 14:12:46] Install finished
+[2026-07-08 14:13:14] Install started
+[2026-07-08 14:13:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Trae Guardian\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 14:13:14] Service already exists, deleting to ensure clean config
+[2026-07-08 14:13:14] Waiting for old service to be removed
+[2026-07-08 14:13:14] Service recreated
+[2026-07-08 14:13:15] Service start command sent
+[2026-07-08 14:13:16] Install finished
+[2026-07-08 17:41:58] Install started
+[2026-07-08 17:41:58] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 17:41:59] Service already exists, deleting to ensure clean config
+[2026-07-08 17:41:59] Waiting for old service to be removed
+[2026-07-08 17:41:59] Service recreated
+[2026-07-08 17:41:59] Service start command sent
+[2026-07-08 17:42:00] Install finished
+[2026-07-08 19:20:23] Install started
+[2026-07-08 19:20:23] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 19:20:23] Service created
+[2026-07-08 19:20:23] Service start command sent
+[2026-07-08 19:20:25] Install finished
+[2026-07-08 19:20:40] Install started
+[2026-07-08 19:20:40] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 19:20:41] Service already exists, deleting to ensure clean config
+[2026-07-08 19:20:41] Waiting for old service to be removed
+[2026-07-08 19:20:51] Old service still not removed, cannot recreate
+[2026-07-08 21:27:41] Install started
+[2026-07-08 21:27:41] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:27:42] Service created
+[2026-07-08 21:27:42] Service start command sent
+[2026-07-08 21:27:43] Install finished
+[2026-07-08 21:28:55] Install started
+[2026-07-08 21:28:55] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:28:56] Service already exists, deleting to ensure clean config
+[2026-07-08 21:28:56] Waiting for old service to be removed
+[2026-07-08 21:29:06] Old service still not removed, cannot recreate
+[2026-07-08 21:29:14] Install started
+[2026-07-08 21:29:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:29:15] Service already exists, deleting to ensure clean config
+[2026-07-08 21:29:15] Waiting for old service to be removed
+[2026-07-08 21:29:25] Old service still not removed, cannot recreate
+[2026-07-08 21:29:34] Install started
+[2026-07-08 21:29:34] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:29:35] Service already exists, deleting to ensure clean config
+[2026-07-08 21:29:35] Waiting for old service to be removed
+[2026-07-08 21:29:45] Old service still not removed, cannot recreate
+[2026-07-08 21:30:19] Install started
+[2026-07-08 21:30:19] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:30:20] Service created
+[2026-07-08 21:30:20] Service start command sent
+[2026-07-08 21:30:21] Install finished
+[2026-07-08 21:55:14] Install started
+[2026-07-08 21:55:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-08 21:55:15] Service already exists, deleting to ensure clean config
+[2026-07-08 21:55:15] Waiting for old service to be removed
+[2026-07-08 21:55:15] Service recreated
+[2026-07-08 21:55:15] Service start command sent
+[2026-07-08 21:55:16] Install finished
+[2026-07-09 16:52:14] Install started
+[2026-07-09 16:52:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 16:52:14] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 16:52:14] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 16:52:14] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 16:52:14] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 16:52:15] Service already exists, deleting to ensure clean config
+[2026-07-09 16:52:15] Waiting for old service to be removed
+[2026-07-09 16:52:15] Service recreated
+[2026-07-09 16:52:15] Service start command sent
+[2026-07-09 16:52:16] Install finished
+[2026-07-09 18:26:35] Install started
+[2026-07-09 18:26:35] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 18:26:35] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 18:26:35] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 18:26:35] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 18:26:35] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 18:26:36] Service already exists, deleting to ensure clean config
+[2026-07-09 18:26:36] Waiting for old service to be removed
+[2026-07-09 18:26:36] Service recreated
+[2026-07-09 18:26:36] Service start command sent
+[2026-07-09 18:26:37] Install finished
+[2026-07-09 18:47:19] Install started
+[2026-07-09 18:47:19] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 18:47:19] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 18:47:19] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 18:47:19] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 18:47:19] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 18:47:19] Service already exists, deleting to ensure clean config
+[2026-07-09 18:47:19] Waiting for old service to be removed
+[2026-07-09 18:47:19] Service recreated
+[2026-07-09 18:47:20] Service start command sent
+[2026-07-09 18:47:21] Install finished
+[2026-07-09 18:58:17] Install started
+[2026-07-09 18:58:17] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 18:58:17] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 18:58:17] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 18:58:17] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 18:58:17] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 18:58:18] Service already exists, deleting to ensure clean config
+[2026-07-09 18:58:18] Waiting for old service to be removed
+[2026-07-09 18:58:18] Service recreated
+[2026-07-09 18:58:18] Service start command sent
+[2026-07-09 18:58:19] Install finished
+[2026-07-09 19:37:44] Install started
+[2026-07-09 19:37:44] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 19:37:44] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 19:37:44] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 19:37:44] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 19:37:44] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 19:37:45] Service already exists, deleting to ensure clean config
+[2026-07-09 19:37:45] Waiting for old service to be removed
+[2026-07-09 19:37:45] Service recreated
+[2026-07-09 19:37:45] Service start command sent
+[2026-07-09 19:37:46] Install finished
+[2026-07-09 19:59:11] Install started
+[2026-07-09 19:59:11] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-09 19:59:11] Killed old process trae_guardian_daemon.exe PID=13252
+[2026-07-09 19:59:11] Killed old process trae_guardian_daemon.exe PID=5796
+[2026-07-09 19:59:11] Killed old process trae_guardian_daemon.exe PID=16428
+[2026-07-09 19:59:11] Killed old process trae_guardian_daemon.exe PID=16000
+[2026-07-09 19:59:12] Service already exists, deleting to ensure clean config
+[2026-07-09 19:59:12] Waiting for old service to be removed
+[2026-07-09 19:59:12] Service recreated
+[2026-07-09 19:59:12] Service start command sent
+[2026-07-09 19:59:13] Install finished
+[2026-07-10 09:36:14] Install started
+[2026-07-10 09:36:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:36:14] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:36:14] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:36:14] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:36:14] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:36:15] Service already exists, deleting to ensure clean config
+[2026-07-10 09:36:15] Waiting for old service to be removed
+[2026-07-10 09:36:15] Service recreated
+[2026-07-10 09:36:15] Service start command sent
+[2026-07-10 09:36:16] Install finished
+[2026-07-10 09:37:07] Install started
+[2026-07-10 09:37:07] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:37:07] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:37:07] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:37:07] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:37:07] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:37:07] Service already exists, deleting to ensure clean config
+[2026-07-10 09:37:07] Waiting for old service to be removed
+[2026-07-10 09:37:07] Service recreated
+[2026-07-10 09:37:08] Service start command sent
+[2026-07-10 09:37:09] Install finished
+[2026-07-10 09:37:47] Install started
+[2026-07-10 09:37:47] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:37:47] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:37:47] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:37:47] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:37:47] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:37:47] Killed old process trae_guardian_daemon.exe PID=20592
+[2026-07-10 09:37:48] Service already exists, deleting to ensure clean config
+[2026-07-10 09:37:48] Waiting for old service to be removed
+[2026-07-10 09:37:58] Old service still not removed, cannot recreate
+[2026-07-10 09:38:02] Install started
+[2026-07-10 09:38:02] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:38:02] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:38:02] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:38:02] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:38:02] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:38:02] Killed old process trae_guardian_daemon.exe PID=20592
+[2026-07-10 09:38:03] Service already exists, deleting to ensure clean config
+[2026-07-10 09:38:03] Waiting for old service to be removed
+[2026-07-10 09:38:13] Old service still not removed, cannot recreate
+[2026-07-10 09:38:49] Install started
+[2026-07-10 09:38:49] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:38:49] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:38:49] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:38:49] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:38:49] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:38:49] Killed old process trae_guardian_daemon.exe PID=20592
+[2026-07-10 09:38:50] Service created
+[2026-07-10 09:38:50] Service start command sent
+[2026-07-10 09:38:51] Install finished
+[2026-07-10 09:48:30] Install started
+[2026-07-10 09:48:30] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=20592
+[2026-07-10 09:48:30] Killed old process trae_guardian_daemon.exe PID=4340
+[2026-07-10 09:48:31] Service already exists, deleting to ensure clean config
+[2026-07-10 09:48:31] Waiting for old service to be removed
+[2026-07-10 09:48:41] Old service still not removed, cannot recreate
+[2026-07-10 09:48:54] Install started
+[2026-07-10 09:48:54] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=10068
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=17908
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=6104
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=14180
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=20592
+[2026-07-10 09:48:55] Killed old process trae_guardian_daemon.exe PID=4340
+[2026-07-10 09:48:55] Service created
+[2026-07-10 09:48:55] Service start command sent
+[2026-07-10 09:48:56] Install finished
+[2026-07-10 17:57:30] Install started
+[2026-07-10 17:57:30] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 17:57:31] Service already exists, deleting to ensure clean config
+[2026-07-10 17:57:31] Waiting for old service to be removed
+[2026-07-10 17:57:31] Service recreated
+[2026-07-10 17:57:31] Service start command sent
+[2026-07-10 17:57:32] Install finished
+[2026-07-10 18:55:02] Install started
+[2026-07-10 18:55:02] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-10 18:55:03] Service already exists, deleting to ensure clean config
+[2026-07-10 18:55:03] Waiting for old service to be removed
+[2026-07-10 18:55:03] Service recreated
+[2026-07-10 18:55:03] Service start command sent
+[2026-07-10 18:55:04] Install finished
+[2026-07-11 09:01:17] Install started
+[2026-07-11 09:01:17] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 09:01:18] Service already exists, deleting to ensure clean config
+[2026-07-11 09:01:18] Waiting for old service to be removed
+[2026-07-11 09:01:18] Service recreated
+[2026-07-11 09:01:18] Service start command sent
+[2026-07-11 09:01:19] Install finished
+[2026-07-11 09:37:10] Install started
+[2026-07-11 09:37:10] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 09:37:11] Service already exists, deleting to ensure clean config
+[2026-07-11 09:37:11] Waiting for old service to be removed
+[2026-07-11 09:37:11] Service recreated
+[2026-07-11 09:37:11] Service start command sent
+[2026-07-11 09:37:12] Install finished
+[2026-07-11 09:40:33] Install started
+[2026-07-11 09:40:33] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 09:40:34] Service already exists, deleting to ensure clean config
+[2026-07-11 09:40:34] Waiting for old service to be removed
+[2026-07-11 09:40:44] Old service still not removed, cannot recreate
+[2026-07-11 09:42:26] Install started
+[2026-07-11 09:42:26] Wrapper path: c:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 09:42:27] Service created
+[2026-07-11 09:42:27] Service start command sent
+[2026-07-11 09:42:28] Install finished
+[2026-07-11 09:53:20] Uninstall started
+[2026-07-11 09:53:20] Killed old process trae_guardian_service_wrapper.exe PID=20812
+[2026-07-11 09:53:20] Killed old process trae_guardian_daemon.exe PID=11672
+[2026-07-11 09:53:31] Service deleted
+[2026-07-11 09:55:42] Install started
+[2026-07-11 09:55:42] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 09:55:43] Service created
+[2026-07-11 09:55:43] Service start command sent
+[2026-07-11 09:55:44] Install finished
+[2026-07-11 10:00:49] Uninstall started
+[2026-07-11 10:00:49] Killed old process trae_guardian_service_wrapper.exe PID=15620
+[2026-07-11 10:00:49] Killed old process trae_guardian_daemon.exe PID=18160
+[2026-07-11 10:01:00] Service deleted
+[2026-07-11 10:01:50] Install started
+[2026-07-11 10:01:50] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:01:51] Service created
+[2026-07-11 10:01:51] Service start command sent
+[2026-07-11 10:01:52] Install finished
+[2026-07-11 10:05:14] Uninstall started
+[2026-07-11 10:05:14] Killed old process trae_guardian_service_wrapper.exe PID=15332
+[2026-07-11 10:05:14] Killed old process trae_guardian_daemon.exe PID=21028
+[2026-07-11 10:05:25] Service deleted
+[2026-07-11 10:05:40] Install started
+[2026-07-11 10:05:40] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:05:41] Service already exists, deleting to ensure clean config
+[2026-07-11 10:05:41] Waiting for old service to be removed
+[2026-07-11 10:05:51] Old service still not removed, cannot recreate
+[2026-07-11 10:06:21] Install started
+[2026-07-11 10:06:21] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:06:22] Service created
+[2026-07-11 10:06:22] Service start command sent
+[2026-07-11 10:06:23] Install finished
+[2026-07-11 10:06:44] Install started
+[2026-07-11 10:06:44] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:06:45] Service already exists, deleting to ensure clean config
+[2026-07-11 10:06:45] Waiting for old service to be removed
+[2026-07-11 10:06:45] Service recreated
+[2026-07-11 10:06:45] Service start command sent
+[2026-07-11 10:06:46] Install finished
+[2026-07-11 10:07:23] Install started
+[2026-07-11 10:07:23] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:07:24] Service already exists, deleting to ensure clean config
+[2026-07-11 10:07:24] Waiting for old service to be removed
+[2026-07-11 10:07:24] Service recreated
+[2026-07-11 10:07:24] Service start command sent
+[2026-07-11 10:07:25] Install finished
+[2026-07-11 10:11:40] Uninstall started
+[2026-07-11 10:11:40] Killed old process trae_guardian_service_wrapper.exe PID=19548
+[2026-07-11 10:11:40] Killed old process trae_guardian_daemon.exe PID=5948
+[2026-07-11 10:11:51] Service deleted
+[2026-07-11 10:12:03] Install started
+[2026-07-11 10:12:03] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:12:04] Service created
+[2026-07-11 10:12:04] Service start command sent
+[2026-07-11 10:12:05] Install finished
+[2026-07-11 10:17:48] Install started
+[2026-07-11 10:17:48] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:17:49] Service already exists, deleting to ensure clean config
+[2026-07-11 10:17:49] Waiting for old service to be removed
+[2026-07-11 10:17:49] Service recreated
+[2026-07-11 10:17:49] Service start command sent
+[2026-07-11 10:17:50] Install finished
+[2026-07-11 10:23:06] Install started
+[2026-07-11 10:23:06] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 10:23:07] Service already exists, deleting to ensure clean config
+[2026-07-11 10:23:07] Waiting for old service to be removed
+[2026-07-11 10:23:07] Service recreated
+[2026-07-11 10:23:07] Service start command sent
+[2026-07-11 10:23:08] Install finished
+[2026-07-11 11:43:14] Install started
+[2026-07-11 11:43:14] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 11:43:14] Killed old process trae_guardian_daemon.exe PID=18272
+[2026-07-11 11:43:14] Killed old process trae_guardian_daemon.exe PID=17212
+[2026-07-11 11:43:15] Service already exists, deleting to ensure clean config
+[2026-07-11 11:43:15] Waiting for old service to be removed
+[2026-07-11 11:43:15] Service recreated
+[2026-07-11 11:43:15] Service start command sent
+[2026-07-11 11:43:16] Install finished
+[2026-07-11 11:54:02] Install started
+[2026-07-11 11:54:02] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-11 11:54:02] Killed old process trae_guardian_daemon.exe PID=18272
+[2026-07-11 11:54:02] Killed old process trae_guardian_daemon.exe PID=17212
+[2026-07-11 11:54:03] Service already exists, deleting to ensure clean config
+[2026-07-11 11:54:03] Waiting for old service to be removed
+[2026-07-11 11:54:03] Service recreated
+[2026-07-11 11:54:03] Service start command sent
+[2026-07-11 11:54:04] Install finished
+[2026-07-14 20:18:55] Install started
+[2026-07-14 20:18:55] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-14 20:18:56] Service already exists, deleting to ensure clean config
+[2026-07-14 20:18:56] Waiting for old service to be removed
+[2026-07-14 20:18:56] Service recreated
+[2026-07-14 20:18:56] Service start command sent
+[2026-07-14 20:18:57] Install finished
+[2026-07-15 08:48:59] Install started
+[2026-07-15 08:48:59] Wrapper path: C:\Users\BaikerrNO1\Documents\trae_projects\Process Guardian\Process Guardian\bin\permission\trae_guardian_service_wrapper.exe
+[2026-07-15 08:49:00] Service already exists, deleting to ensure clean config
+[2026-07-15 08:49:00] Waiting for old service to be removed
+[2026-07-15 08:49:00] Service recreated
+[2026-07-15 08:49:00] Service start command sent
+[2026-07-15 08:49:01] Install finished

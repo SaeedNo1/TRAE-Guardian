@@ -1,0 +1,7 @@
+# Trusted zone paths. Processes whose executable image is located
+# under one of these directories will be ignored by the AI threat
+# evaluator and the direct-kill logic.
+#
+# One absolute path per line, for example:
+# C:\Program Files\MyCompany\TrustedTool
+# C:\Tools\SafeUtility

@@ -1,0 +1,47 @@
+{
+  "modules": {
+    "etwEnabled": 1,
+    "handleScanEnabled": 1,
+    "mbrProtectionEnabled": 1,
+    "registryMonitorEnabled": 1,
+    "networkMonitorEnabled": 1,
+    "aiAnalysisEnabled": 1,
+    "autoUpdateEnabled": 0,
+    "selfProtectionEnabled": 0
+  },
+  "scans": {
+    "globalScanIntervalMs": 1000,
+    "newProcessScanIntervalMs": 20,
+    "newProcessMonitorDurationMs": 5000,
+    "highSpeedScanIntervalMs": 10,
+    "highSpeedScanDurationMs": 10000,
+    "mbrCheckIntervalMs": 5000,
+    "mbrHighSpeedIntervalMs": 50,
+    "registryCheckIntervalMs": 1000,
+    "networkCheckIntervalMs": 1000
+  },
+  "scores": {
+    "thresholdObserved": 0,
+    "thresholdSuspicious": 30,
+    "thresholdRestricted": 50,
+    "thresholdQuarantined": 70,
+    "thresholdRemoved": 80,
+    "maxStaticScore": 25,
+    "maxBehaviorScore": 40,
+    "maxKernelScore": 18,
+    "maxAiScore": 8
+  },
+  "logs": {
+    "logEnabled": 1,
+    "logLevel": 3,
+    "logPath": "C:\ProgramData\ProcessGuardian\logs",
+    "logMaxSizeMb": 10,
+    "logMaxFiles": 5
+  },
+  "ai": {
+    "aiEnabled": 1,
+    "aiEndpoint": "",
+    "aiTimeoutMs": 30000,
+    "aiMaxConcurrent": 3
+  }
+}

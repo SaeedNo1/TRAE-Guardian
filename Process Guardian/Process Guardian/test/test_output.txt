@@ -1,0 +1,41 @@
+=== High-Frequency Handle Scanner Test ===
+Testing PhysicalDrive access detection
+
+Attempting to open \\.\PhysicalDrive0...
+SUCCESS: Disk handle opened!
+Keeping handle open for 30 seconds...
+During this time, the daemon should detect and terminate this process.
+Press Ctrl+C to exit early...
+
+Second 1/30 - Handle still open
+Second 2/30 - Handle still open
+Second 3/30 - Handle still open
+Second 4/30 - Handle still open
+Second 5/30 - Handle still open
+Second 6/30 - Handle still open
+Second 7/30 - Handle still open
+Second 8/30 - Handle still open
+Second 9/30 - Handle still open
+Second 10/30 - Handle still open
+Second 11/30 - Handle still open
+Second 12/30 - Handle still open
+Second 13/30 - Handle still open
+Second 14/30 - Handle still open
+Second 15/30 - Handle still open
+Second 16/30 - Handle still open
+Second 17/30 - Handle still open
+Second 18/30 - Handle still open
+Second 19/30 - Handle still open
+Second 20/30 - Handle still open
+Second 21/30 - Handle still open
+Second 22/30 - Handle still open
+Second 23/30 - Handle still open
+Second 24/30 - Handle still open
+Second 25/30 - Handle still open
+Second 26/30 - Handle still open
+Second 27/30 - Handle still open
+Second 28/30 - Handle still open
+Second 29/30 - Handle still open
+Second 30/30 - Handle still open
+
+Handle closed normally.

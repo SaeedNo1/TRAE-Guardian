@@ -1,0 +1,10 @@
+# System-critical registry paths. Any modification to these paths
+# will cause the offending process to be terminated immediately and
+# the registry value to be restored from the first-run snapshot.
+#
+# One full registry path per line. Use HKEY_LOCAL_MACHINE\... format.
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows

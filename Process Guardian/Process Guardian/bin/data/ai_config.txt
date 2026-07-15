@@ -1,0 +1,8 @@
+# AI provider configuration
+provider=api.siliconflow.cn
+endpoint=/v1/chat/completions
+model=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+api_key=sk-nqeptpvgnpbiumaaxevlgoeqhodspzgjjnfhdkjfpxmwybcl
+input_context_limit=8192
+output_context_limit=4096
+temperature=0.70

@@ -1,0 +1,519 @@
+[2026-06-25 09:10:40] Guardian started
+[2026-06-25 09:10:40] service_manager.dll loaded: 00007FFAE3690000
+[2026-06-25 09:10:40] registry_manager.dll loaded: 00007FFAE3590000
+[2026-06-25 09:10:40] partition_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:10:51] Guardian started
+[2026-06-25 09:10:51] service_manager.dll loaded: 00007FFAE3690000
+[2026-06-25 09:10:51] registry_manager.dll loaded: 00007FFAE3590000
+[2026-06-25 09:10:51] partition_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:12:21] Guardian started
+[2026-06-25 09:12:21] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:12:21] registry_manager.dll loaded: 00007FFAE3270000
+[2026-06-25 09:12:21] partition_manager.dll loaded: 00007FFAE3190000
+[2026-06-25 09:16:38] Guardian started
+[2026-06-25 09:16:38] service_manager.dll loaded: 00007FFAE3690000
+[2026-06-25 09:16:38] registry_manager.dll loaded: 00007FFAE3590000
+[2026-06-25 09:16:38] partition_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:27:42] Guardian started
+[2026-06-25 09:27:42] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:27:42] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 09:27:42] partition_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 09:28:03] Guardian stopped
+[2026-06-25 09:31:13] Guardian started
+[2026-06-25 09:31:13] service_manager.dll loaded: 00007FFAE3650000
+[2026-06-25 09:31:13] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 09:31:13] partition_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 09:35:26] Guardian stopped
+[2026-06-25 09:35:29] Guardian started
+[2026-06-25 09:35:29] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 09:35:29] registry_manager.dll loaded: 00007FFAE3660000
+[2026-06-25 09:35:29] partition_manager.dll loaded: 00007FFAE3230000
+[2026-06-25 09:58:51] Guardian started
+[2026-06-25 09:58:51] service_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 09:58:51] registry_manager.dll loaded: 00007FFAF0FB0000
+[2026-06-25 09:58:51] partition_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 10:12:04] Guardian started
+[2026-06-25 10:12:04] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 10:12:04] registry_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 10:12:04] partition_manager.dll loaded: 00007FFAE3190000
+[2026-06-25 10:16:01] Guardian stopped
+[2026-06-25 10:31:39] Guardian started
+[2026-06-25 10:31:39] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 10:31:39] registry_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 10:31:39] partition_manager.dll loaded: 00007FFAE3230000
+[2026-06-25 10:34:44] Guardian started
+[2026-06-25 10:34:44] service_manager.dll loaded: 00007FFAE2F70000
+[2026-06-25 10:34:44] registry_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 10:34:44] partition_manager.dll loaded: 00007FFAE3190000
+[2026-06-25 10:37:03] Guardian started
+[2026-06-25 10:37:03] service_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 10:37:03] registry_manager.dll loaded: 00007FFAE36B0000
+[2026-06-25 10:37:03] partition_manager.dll loaded: 00007FFAE3660000
+[2026-06-25 10:42:21] Guardian started
+[2026-06-25 10:42:21] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 10:42:21] registry_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 10:42:21] partition_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:01:47] Guardian started
+[2026-06-25 11:01:47] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 11:01:47] registry_manager.dll loaded: 00007FFAD7800000
+[2026-06-25 11:01:47] partition_manager.dll loaded: 00007FFAD77E0000
+[2026-06-25 11:08:06] Guardian started
+[2026-06-25 11:08:06] service_manager.dll loaded: 00007FFAE3210000
+[2026-06-25 11:08:06] registry_manager.dll loaded: 00007FFAE3190000
+[2026-06-25 11:08:06] partition_manager.dll loaded: 00007FFAE2F90000
+[2026-06-25 11:16:24] Guardian started
+[2026-06-25 11:16:24] service_manager.dll loaded: 00007FFAE49C0000
+[2026-06-25 11:16:24] registry_manager.dll loaded: 00007FFAF0FB0000
+[2026-06-25 11:16:24] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 11:28:17] Guardian stopped
+[2026-06-25 11:35:12] Guardian started
+[2026-06-25 11:35:12] service_manager.dll loaded: 00007FFAE3220000
+[2026-06-25 11:35:12] registry_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:35:12] partition_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 11:35:24] Guardian started
+[2026-06-25 11:35:24] service_manager.dll loaded: 00007FFAE3220000
+[2026-06-25 11:35:24] registry_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:35:24] partition_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 11:35:31] Guardian started
+[2026-06-25 11:35:31] service_manager.dll loaded: 00007FFAE3220000
+[2026-06-25 11:35:31] registry_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:35:31] partition_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 11:35:43] Guardian started
+[2026-06-25 11:35:43] service_manager.dll loaded: 00007FFAE3220000
+[2026-06-25 11:35:43] registry_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:35:43] partition_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 11:42:35] Guardian started
+[2026-06-25 11:42:35] service_manager.dll loaded: 00007FFAE3220000
+[2026-06-25 11:42:35] registry_manager.dll loaded: 00007FFAE3200000
+[2026-06-25 11:42:35] partition_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 11:45:32] Guardian started
+[2026-06-25 11:45:32] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 11:45:32] registry_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 11:45:32] partition_manager.dll loaded: 00007FFAE3240000
+[2026-06-25 11:47:01] Guardian started
+[2026-06-25 11:47:01] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 11:47:01] registry_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 11:47:01] partition_manager.dll loaded: 00007FFAE3240000
+[2026-06-25 11:47:58] Guardian stopped
+[2026-06-25 11:48:54] Guardian started
+[2026-06-25 11:48:54] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 11:48:54] registry_manager.dll loaded: 00007FFAF0FB0000
+[2026-06-25 11:48:54] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 12:07:27] Guardian started
+[2026-06-25 12:07:27] service_manager.dll loaded: 00007FFACF710000
+[2026-06-25 12:07:27] registry_manager.dll loaded: 00007FFAD7680000
+[2026-06-25 12:07:27] partition_manager.dll loaded: 00007FFAD73C0000
+[2026-06-25 12:10:49] Guardian started
+[2026-06-25 12:10:49] service_manager.dll loaded: 00007FFAE3570000
+[2026-06-25 12:10:49] registry_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 12:10:49] partition_manager.dll loaded: 00007FFAE3240000
+[2026-06-25 12:24:34] Guardian started
+[2026-06-25 12:24:34] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 12:24:34] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 12:24:34] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 12:24:59] Daemon started via service (SYSTEM fallback)
+[2026-06-25 12:34:49] Guardian started
+[2026-06-25 12:34:49] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 12:34:49] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 12:34:49] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 12:36:50] Guardian started
+[2026-06-25 12:36:50] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 12:36:50] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 12:36:50] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 12:56:49] Guardian started
+[2026-06-25 12:56:49] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 12:56:49] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 12:56:49] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 13:10:47] Guardian started
+[2026-06-25 13:10:47] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 13:10:47] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 13:10:47] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 13:12:21] Guardian started
+[2026-06-25 13:12:21] service_manager.dll loaded: 00007FFAE49B0000
+[2026-06-25 13:12:21] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 13:12:21] partition_manager.dll loaded: 00007FFAE3900000
+[2026-06-25 14:47:41] Guardian started
+[2026-06-25 14:47:41] service_manager.dll loaded: 00007FFAC2130000
+[2026-06-25 14:47:41] registry_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 14:47:41] partition_manager.dll loaded: 00007FFAD7480000
+[2026-06-25 14:48:19] Guardian started
+[2026-06-25 14:48:19] service_manager.dll loaded: 00007FFAC2130000
+[2026-06-25 14:48:19] registry_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 14:48:19] partition_manager.dll loaded: 00007FFAD7480000
+[2026-06-25 14:50:16] Guardian started
+[2026-06-25 14:50:16] service_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 14:50:16] registry_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 14:50:16] partition_manager.dll loaded: 00007FFAD7480000
+[2026-06-25 14:52:17] Guardian started
+[2026-06-25 14:52:17] service_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 14:52:17] registry_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 14:52:17] partition_manager.dll loaded: 00007FFAD7480000
+[2026-06-25 14:54:24] Guardian started
+[2026-06-25 14:54:24] service_manager.dll loaded: 00007FFAE4A00000
+[2026-06-25 14:54:24] registry_manager.dll loaded: 00007FFAE49E0000
+[2026-06-25 14:54:24] partition_manager.dll loaded: 00007FFAD7480000
+[2026-06-25 15:15:24] Guardian started
+[2026-06-25 15:15:24] service_manager.dll loaded: 00007FFAC0920000
+[2026-06-25 15:15:24] registry_manager.dll loaded: 00007FFACEC70000
+[2026-06-25 15:15:24] partition_manager.dll loaded: 00007FFACDEE0000
+[2026-06-25 15:43:46] Guardian started
+[2026-06-25 15:43:46] service_manager.dll loaded: 00007FFABC640000
+[2026-06-25 15:43:46] registry_manager.dll loaded: 00007FFACF1D0000
+[2026-06-25 15:43:46] partition_manager.dll loaded: 00007FFAC20E0000
+[2026-06-25 18:10:56] Guardian started
+[2026-06-25 18:10:56] service_manager.dll loaded: 00007FFA77F60000
+[2026-06-25 18:10:56] registry_manager.dll loaded: 00007FFAE4A20000
+[2026-06-25 18:10:56] partition_manager.dll loaded: 00007FFAE3240000
+[2026-06-25 18:11:04] Guardian stopped
+[2026-06-25 18:25:31] Guardian started
+[2026-06-25 18:25:31] service_manager.dll loaded: 00007FFA77EB0000
+[2026-06-25 18:25:31] registry_manager.dll loaded: 00007FFA77E90000
+[2026-06-25 18:25:31] partition_manager.dll loaded: 00007FFA77E70000
+[2026-06-25 18:34:25] Guardian started
+[2026-06-25 18:34:25] service_manager.dll loaded: 00007FFA77E80000
+[2026-06-25 18:34:25] registry_manager.dll loaded: 00007FFA77E60000
+[2026-06-25 18:34:25] partition_manager.dll loaded: 00007FFA77E40000
+[2026-06-25 19:34:24] Guardian started
+[2026-06-25 19:34:24] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:34:24] registry_manager.dll loaded: 00007FFA8DE30000
+[2026-06-25 19:34:24] partition_manager.dll loaded: 00007FFA6DD60000
+[2026-06-25 19:34:48] Guardian started
+[2026-06-25 19:34:48] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:34:48] registry_manager.dll loaded: 00007FFA8DE30000
+[2026-06-25 19:34:48] partition_manager.dll loaded: 00007FFA6DD60000
+[2026-06-25 19:35:08] Guardian started
+[2026-06-25 19:35:08] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:35:08] registry_manager.dll loaded: 00007FFA8DE30000
+[2026-06-25 19:35:08] partition_manager.dll loaded: 00007FFA6DD60000
+[2026-06-25 19:36:08] Guardian started
+[2026-06-25 19:36:08] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:36:08] registry_manager.dll loaded: 00007FFA8DE30000
+[2026-06-25 19:36:08] partition_manager.dll loaded: 00007FFA6DD60000
+[2026-06-25 19:38:26] Guardian started
+[2026-06-25 19:38:26] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:38:26] registry_manager.dll loaded: 00007FFA8DE70000
+[2026-06-25 19:38:26] partition_manager.dll loaded: 00007FFA8DE50000
+[2026-06-25 19:39:06] Guardian started
+[2026-06-25 19:39:06] service_manager.dll loaded: 00007FFAB1210000
+[2026-06-25 19:39:06] registry_manager.dll loaded: 00007FFA8DE70000
+[2026-06-25 19:39:06] partition_manager.dll loaded: 00007FFA8DE50000
+[2026-06-25 19:39:47] Guardian started
+[2026-06-25 19:39:47] service_manager.dll loaded: 00007FFAC37A0000
+[2026-06-25 19:39:47] registry_manager.dll loaded: 00007FFAC3BF0000
+[2026-06-25 19:39:47] partition_manager.dll loaded: 00007FFAC3780000
+[2026-06-25 19:40:49] Guardian started
+[2026-06-25 19:40:49] service_manager.dll loaded: 00007FFAC37A0000
+[2026-06-25 19:40:49] registry_manager.dll loaded: 00007FFAC3BF0000
+[2026-06-25 19:40:49] partition_manager.dll loaded: 00007FFAC3780000
+[2026-06-25 19:41:33] Guardian started
+[2026-06-25 19:41:33] service_manager.dll loaded: 00007FFAC37A0000
+[2026-06-25 19:41:33] registry_manager.dll loaded: 00007FFAC3BF0000
+[2026-06-25 19:41:33] partition_manager.dll loaded: 00007FFAC3780000
+[2026-06-25 19:42:12] Guardian started
+[2026-06-25 19:42:12] service_manager.dll loaded: 00007FFAC37A0000
+[2026-06-25 19:42:12] registry_manager.dll loaded: 00007FFAC3BF0000
+[2026-06-25 19:42:12] partition_manager.dll loaded: 00007FFAC3780000
+[2026-06-25 19:42:45] Guardian started
+[2026-06-25 19:42:45] service_manager.dll loaded: 00007FFAC3C00000
+[2026-06-25 19:42:45] registry_manager.dll loaded: 00007FFAC37C0000
+[2026-06-25 19:42:45] partition_manager.dll loaded: 00007FFAC37A0000
+[2026-06-25 19:43:14] Guardian started
+[2026-06-25 19:43:14] service_manager.dll loaded: 00007FFAC3C40000
+[2026-06-25 19:43:14] registry_manager.dll loaded: 00007FFAC3C20000
+[2026-06-25 19:43:14] partition_manager.dll loaded: 00007FFAC3C00000
+[2026-06-25 19:43:34] Guardian started
+[2026-06-25 19:43:34] service_manager.dll loaded: 00007FFAC3C40000
+[2026-06-25 19:43:34] registry_manager.dll loaded: 00007FFAC3C20000
+[2026-06-25 19:43:34] partition_manager.dll loaded: 00007FFAC3C00000
+[2026-06-25 22:11:53] Guardian started
+[2026-06-25 22:11:53] service_manager.dll loaded: 00007FFB772C0000
+[2026-06-25 22:11:53] registry_manager.dll loaded: 00007FFB872C0000
+[2026-06-25 22:11:53] partition_manager.dll loaded: 00007FFB77D10000
+[2026-06-25 22:12:12] Daemon started via service (SYSTEM fallback)
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:19] RepKill: Doubao.exe
+[2026-06-25 22:13:28] Daemon started via service (SYSTEM fallback)
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:14:35] Kill: Doubao.exe
+[2026-06-25 22:17:43] Guardian stopped
+[2026-06-25 22:21:03] Guardian started
+[2026-06-25 22:21:03] service_manager.dll loaded: 00007FFB772C0000
+[2026-06-25 22:21:03] registry_manager.dll loaded: 00007FFB872C0000
+[2026-06-25 22:21:03] partition_manager.dll loaded: 00007FFB77D10000
+[2026-06-25 22:21:12] Daemon started via service (SYSTEM fallback)
+[2026-06-25 22:21:13] Guardian stopped
+[2026-06-25 22:21:23] Guardian started
+[2026-06-25 22:21:23] service_manager.dll loaded: 00007FFB772C0000
+[2026-06-25 22:21:23] registry_manager.dll loaded: 00007FFB872C0000
+[2026-06-25 22:21:23] partition_manager.dll loaded: 00007FFB77D10000
+[2026-06-25 22:21:29] Daemon started via service (SYSTEM fallback)
+[2026-06-25 22:22:01] Guardian stopped
+[2026-06-25 22:22:15] Guardian started
+[2026-06-25 22:22:15] service_manager.dll loaded: 00007FFB772C0000
+[2026-06-25 22:22:15] registry_manager.dll loaded: 00007FFB872C0000
+[2026-06-25 22:22:15] partition_manager.dll loaded: 00007FFB77D10000
+[2026-06-26 07:08:02] Guardian started
+[2026-06-26 07:08:03] service_manager.dll loaded: 00007FFFB42B0000
+[2026-06-26 07:08:03] registry_manager.dll loaded: 00007FFFB4170000
+[2026-06-26 07:08:03] partition_manager.dll loaded: 00007FFFB4150000
+[2026-06-26 07:15:06] Guardian stopped
+[2026-06-26 07:30:43] Guardian started
+[2026-06-26 07:30:43] service_manager.dll loaded: 00007FFFC3BA0000
+[2026-06-26 07:30:43] registry_manager.dll loaded: 00007FFFC47E0000
+[2026-06-26 07:30:43] partition_manager.dll loaded: 00007FFFC3CE0000
+[2026-06-26 07:30:52] Daemon started via service (SYSTEM fallback)
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:31:52] RepKill: Doubao.exe
+[2026-06-26 07:32:10] Daemon started via service (SYSTEM fallback)
+[2026-06-26 17:58:29] Guardian stopped
+[2026-06-26 18:05:52] Guardian started
+[2026-06-26 18:05:52] service_manager.dll loaded: 00007FFFC85F0000
+[2026-06-26 18:05:52] registry_manager.dll loaded: 00007FFFC8B20000
+[2026-06-26 18:05:52] partition_manager.dll loaded: 00007FFFC8AF0000
+[2026-06-26 18:05:56] Guardian stopped
+[2026-06-26 18:05:59] Guardian started
+[2026-06-26 18:05:59] service_manager.dll loaded: 00007FFFC85F0000
+[2026-06-26 18:05:59] registry_manager.dll loaded: 00007FFFC8B20000
+[2026-06-26 18:05:59] partition_manager.dll loaded: 00007FFFC8AF0000
+[2026-06-26 18:06:19] Guardian stopped
+[2026-06-26 21:28:16] Guardian started
+[2026-06-26 21:28:16] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 21:28:16] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 21:28:16] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 21:41:28] Guardian stopped
+[2026-06-26 21:45:40] Guardian started
+[2026-06-26 21:45:40] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 21:45:40] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 21:45:40] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 21:45:48] Guardian stopped
+[2026-06-26 21:54:36] Guardian started
+[2026-06-26 21:54:36] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 21:54:36] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 21:54:36] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 21:58:11] Guardian stopped
+[2026-06-26 22:02:05] Guardian started
+[2026-06-26 22:02:05] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 22:02:05] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 22:02:05] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 22:14:59] Guardian started
+[2026-06-26 22:14:59] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 22:14:59] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 22:14:59] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 22:34:45] Guardian started
+[2026-06-26 22:34:45] service_manager.dll loaded: 00007FFD08F00000
+[2026-06-26 22:34:45] registry_manager.dll loaded: 00007FFD06530000
+[2026-06-26 22:34:45] partition_manager.dll loaded: 00007FFD064E0000
+[2026-06-26 22:37:50] Guardian stopped
+[2026-06-27 07:29:27] Guardian started
+[2026-06-27 07:29:27] service_manager.dll loaded: 00007FFEA29F0000
+[2026-06-27 07:29:27] registry_manager.dll loaded: 00007FFEA29D0000
+[2026-06-27 07:29:27] partition_manager.dll loaded: 00007FFEA2980000
+[2026-06-27 07:29:48] Guardian stopped
+[2026-06-27 07:46:58] Guardian started
+[2026-06-27 07:46:58] service_manager.dll loaded: 00007FFEBD650000
+[2026-06-27 07:46:58] registry_manager.dll loaded: 00007FFEBDBC0000
+[2026-06-27 07:46:58] partition_manager.dll loaded: 00007FFEBDA20000
+[2026-06-27 07:47:00] Guardian stopped
+[2026-06-27 07:56:35] Guardian started
+[2026-06-27 07:56:35] service_manager.dll loaded: 00007FFEBD670000
+[2026-06-27 07:56:35] registry_manager.dll loaded: 00007FFEBDBD0000
+[2026-06-27 07:56:35] partition_manager.dll loaded: 00007FFEBDA20000
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 07:57:04] RepKill: Doubao.exe
+[2026-06-27 08:01:26] Guardian stopped
+[2026-06-27 08:28:35] Guardian started
+[2026-06-27 08:28:35] service_manager.dll loaded: 00007FFEBD590000
+[2026-06-27 08:28:35] registry_manager.dll loaded: 00007FFEBD920000
+[2026-06-27 08:28:35] partition_manager.dll loaded: 00007FFEBD570000
+[2026-06-27 09:18:23] Guardian started
+[2026-06-27 09:18:23] service_manager.dll loaded: 00007FFEBD5D0000
+[2026-06-27 09:18:23] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 09:18:23] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 09:19:05] Guardian stopped
+[2026-06-27 09:26:08] Guardian started
+[2026-06-27 09:26:08] service_manager.dll loaded: 00007FFEBD4D0000
+[2026-06-27 09:26:08] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 09:26:08] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 09:28:45] Guardian stopped
+[2026-06-27 09:40:57] Guardian started
+[2026-06-27 09:40:57] service_manager.dll loaded: 00007FFEBC230000
+[2026-06-27 09:40:57] registry_manager.dll loaded: 00007FFEBD4E0000
+[2026-06-27 09:40:57] partition_manager.dll loaded: 00007FFEBC210000
+[2026-06-27 09:41:16] Guardian stopped
+[2026-06-27 09:41:41] Guardian started
+[2026-06-27 09:41:41] service_manager.dll loaded: 00007FFEBD4D0000
+[2026-06-27 09:41:41] registry_manager.dll loaded: 00007FFEBC250000
+[2026-06-27 09:41:41] partition_manager.dll loaded: 00007FFEBC230000
+[2026-06-27 09:50:04] Guardian started
+[2026-06-27 09:50:04] service_manager.dll loaded: 00007FFEBD4D0000
+[2026-06-27 09:50:04] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 09:50:04] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:01:35] Guardian started
+[2026-06-27 10:01:35] service_manager.dll loaded: 00007FFEBD4D0000
+[2026-06-27 10:01:35] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 10:01:35] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:01:37] Guardian stopped
+[2026-06-27 10:01:40] Guardian started
+[2026-06-27 10:01:40] service_manager.dll loaded: 00007FFEBD4D0000
+[2026-06-27 10:01:40] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 10:01:40] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:10:58] Guardian started
+[2026-06-27 10:10:58] service_manager.dll loaded: 00007FFEBC1A0000
+[2026-06-27 10:10:58] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 10:10:58] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:14:13] Guardian stopped
+[2026-06-27 10:14:32] Guardian started
+[2026-06-27 10:14:32] service_manager.dll loaded: 00007FFEBC1A0000
+[2026-06-27 10:14:32] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 10:14:32] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:20:06] Guardian started
+[2026-06-27 10:20:06] service_manager.dll loaded: 00007FFEBC1A0000
+[2026-06-27 10:20:06] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 10:20:06] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:31:56] Guardian stopped
+[2026-06-27 10:42:03] Guardian started
+[2026-06-27 10:42:03] service_manager.dll loaded: 00007FFEBBB40000
+[2026-06-27 10:42:03] registry_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 10:42:03] partition_manager.dll loaded: 00007FFEBBE10000
+[2026-06-27 10:46:56] Guardian stopped
+[2026-06-27 11:01:13] Guardian started
+[2026-06-27 11:01:13] service_manager.dll loaded: 00007FFEBBB40000
+[2026-06-27 11:01:13] registry_manager.dll loaded: 00007FFEBBE10000
+[2026-06-27 11:01:13] partition_manager.dll loaded: 00007FFEBB790000
+[2026-06-27 11:11:32] Guardian started
+[2026-06-27 11:11:32] service_manager.dll loaded: 00007FFEBBB40000
+[2026-06-27 11:11:32] registry_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 11:11:32] partition_manager.dll loaded: 00007FFEBC120000
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:12:12] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:14] RepKill: Doubao.exe
+[2026-06-27 11:13:17] Guardian stopped
+[2026-06-27 11:13:22] Guardian started
+[2026-06-27 11:13:22] service_manager.dll loaded: 00007FFEBBE90000
+[2026-06-27 11:13:22] registry_manager.dll loaded: 00007FFEBDA10000
+[2026-06-27 11:13:22] partition_manager.dll loaded: 00007FFEBD910000
+[2026-06-27 11:13:24] Guardian stopped
+[2026-06-27 11:16:45] Guardian started
+[2026-06-27 11:16:46] service_manager.dll loaded: 00007FFF32CC0000
+[2026-06-27 11:16:46] registry_manager.dll loaded: 00007FFF32CA0000
+[2026-06-27 11:16:46] partition_manager.dll loaded: 00007FFF32C80000
+[2026-06-27 11:16:59] Daemon started via service (SYSTEM fallback)
+[2026-06-27 11:17:47] Guardian stopped
+[2026-06-27 11:30:50] Guardian started
+[2026-06-27 11:30:50] service_manager.dll loaded: 00007FFF58170000
+[2026-06-27 11:30:50] registry_manager.dll loaded: 00007FFF4CB00000
+[2026-06-27 11:30:50] partition_manager.dll loaded: 00007FFF4B920000
+[2026-06-27 11:31:32] Daemon started via service (SYSTEM fallback)
+[2026-06-27 11:31:37] Guardian stopped
+[2026-06-27 11:32:03] Guardian started
+[2026-06-27 11:32:03] service_manager.dll loaded: 00007FFF58170000
+[2026-06-27 11:32:03] registry_manager.dll loaded: 00007FFF4CB00000
+[2026-06-27 11:32:03] partition_manager.dll loaded: 00007FFF4B920000
+[2026-06-27 11:32:25] Guardian started
+[2026-06-27 11:32:25] service_manager.dll loaded: 00007FFF58170000
+[2026-06-27 11:32:25] registry_manager.dll loaded: 00007FFF4CB00000
+[2026-06-27 11:32:25] partition_manager.dll loaded: 00007FFF4B920000
+[2026-06-27 11:32:52] Guardian stopped
+[2026-06-27 11:33:17] Guardian stopped
+[2026-06-27 11:34:02] Guardian started
+[2026-06-27 11:34:02] service_manager.dll loaded: 00007FFF58170000
+[2026-06-27 11:34:02] registry_manager.dll loaded: 00007FFF50E60000
+[2026-06-27 11:34:02] partition_manager.dll loaded: 00007FFF50E40000
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:30] RepKill: Doubao.exe
+[2026-06-27 11:34:39] Guardian stopped
+[2026-06-27 11:38:40] Guardian started
+[2026-06-27 11:38:40] service_manager.dll loaded: 00007FFA7AA30000
+[2026-06-27 11:38:40] registry_manager.dll loaded: 00007FFA928D0000
+[2026-06-27 11:38:40] partition_manager.dll loaded: 00007FFA92480000
+[2026-06-27 11:38:54] Guardian stopped
+[2026-06-27 11:39:40] Guardian started
+[2026-06-27 11:39:40] service_manager.dll loaded: 00007FFA7AA30000
+[2026-06-27 11:39:40] registry_manager.dll loaded: 00007FFA928D0000
+[2026-06-27 11:39:40] partition_manager.dll loaded: 00007FFA92480000
+[2026-06-27 11:39:55] Guardian stopped
+[2026-06-30 18:36:49] Guardian started
+[2026-06-30 18:36:49] service_manager.dll loaded: 00007FF979230000
+[2026-06-30 18:36:49] registry_manager.dll loaded: 00007FF9793E0000
+[2026-06-30 18:36:49] partition_manager.dll loaded: 00007FF9772D0000
+[2026-06-30 18:37:01] Daemon restarted via DLL (mode=2)
+[2026-06-30 18:37:36] Daemon restarted via DLL (mode=1)
+[2026-06-30 18:37:46] Daemon restarted via DLL (mode=2)
+[2026-06-30 18:37:50] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffb81360000
+[2] registry_manager.dll loaded: 00007ffb86160000
+[2] partition_manager.dll loaded: 00007ffb7f5a0000
+[2] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffb16690000
+[2] registry_manager.dll loaded: 00007ffb1f2c0000
+[2] partition_manager.dll loaded: 00007ffb16560000
+[2] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffb16560000
+[2] registry_manager.dll loaded: 00007ffb1f440000
+[2] partition_manager.dll loaded: 00007ffb11860000
+[2] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffb11590000
+[2] registry_manager.dll loaded: 00007ffb134e0000
+[2] partition_manager.dll loaded: 00007ffb112c0000
+[2] Guardian stopped
+[2] Guardian started
+[2] Failed to load service_manager.dll: 126
+[2] Failed to load registry_manager.dll: 126
+[2] Failed to load partition_manager.dll: 126
+[2] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffb11590000
+[2] registry_manager.dll loaded: 00007ffb1f360000
+[2] partition_manager.dll loaded: 00007ffaf6850000
+[2] Guardian stopped
+[2] Guardian started
+[2] service_manager.dll loaded: 00007ffa056e0000
+[2] registry_manager.dll loaded: 00007ffa056c0000
+[2] partition_manager.dll loaded: 00007ffa05680000
+[2] Daemon is already running with SYSTEM privileges
+[2] Guardian stopped
+[2026-07-07 09:45:07] Guardian started
+[2026-07-07 09:45:07] service_manager.dll loaded: 00007FFF72E30000
+[2026-07-07 09:45:07] registry_manager.dll loaded: 00007FFF77700000
+[2026-07-07 09:45:07] partition_manager.dll loaded: 00007FFF6D030000
+[2026-07-07 09:45:07] Daemon not running as SYSTEM, attempting auto-start...
+[2026-07-07 09:45:07] Starting daemon via SYSTEM service...
+[2026-07-07 09:45:13] Daemon restarted via DLL (mode=2)
+[2026-07-07 09:45:18] Guardian stopped
