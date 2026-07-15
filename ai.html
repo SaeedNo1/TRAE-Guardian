@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - AI Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">🤖</div>
+        </div>
+        <h1>AI Integration</h1>
+        <p class="tagline">AI-powered risk analysis with knowledge base and memory lookup</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="virus.html">Virus Protection</a></li>
+            <li><a href="rogue.html">Rogue Software</a></li>
+            <li><a href="ai.html" class="active">AI Integration</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="index.html#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="download-banner">
+            <h2>🚀 Get TRAE Guardian</h2>
+            <p>Experience AI-powered security analysis</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download v1.0.0
+            </a>
+        </div>
+
+        <section>
+            <h2>AI Architecture</h2>
+            <div class="section-card">
+                <h3>AI Components</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📡</div>
+                        <h3>ai_client.dll</h3>
+                        <p>WinHTTP-based API client for OpenAI-compatible endpoints. Handles API authentication, request formatting, and response parsing.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>ai_action.dll</h3>
+                        <p>AI action execution module. Parses AI responses and executes appropriate security actions based on recommendations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>ai_web_search.dll</h3>
+                        <p>AI-powered web search for threat intelligence. Searches external knowledge bases for the latest threat information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Knowledge Base & Memory Lookup</h2>
+            <div class="section-card">
+                <h3>Core AI Capability: Self-Directed Knowledge Search</h3>
+                <p>A key feature of TRAE Guardian's AI is its ability to autonomously search knowledge bases and memory to enhance threat detection. This is not a simple keyword match - the AI can:</p>
+                <ul>
+                    <li><strong>Search Knowledge Base:</strong> Query an internal knowledge base containing known threat patterns, malware signatures, and attack techniques</li>
+                    <li><strong>Memory Lookup:</strong> Access historical data about previously detected threats, process behaviors, and user interactions</li>
+                    <li><strong>Contextual Analysis:</strong> Combine real-time ETW log data with historical knowledge to identify emerging threats</li>
+                    <li><strong>Pattern Recognition:</strong> Detect new threat patterns by comparing current behaviors against known attack signatures</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Knowledge Base Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Threat Intelligence Database</h3>
+                    <p>Contains information about known malware families, attack vectors, and indicators of compromise (IOCs). Updated regularly with the latest threat intelligence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>Behavior Pattern Matching</h3>
+                    <p>AI can search for specific behavior patterns in the knowledge base to identify known attack techniques being used by current processes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Historical Memory</h3>
+                    <p>Stores information about previously detected threats, allowing the AI to recognize recurrence patterns and adapt its detection strategies.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Web Search Integration</h3>
+                    <p>When internal knowledge is insufficient, the AI can perform web searches to gather the latest threat intelligence from external sources.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Continuous Learning</h3>
+                    <p>New threat information gathered from detection events is added to the knowledge base, improving detection accuracy over time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-time Query</h3>
+                    <p>AI can query the knowledge base during live threat detection to get instant insights about suspicious process behaviors.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>AI Model & Configuration</h2>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>🤖 AI Model</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> <strong>Model:</strong> DeepSeek-R1-0528-Qwen3-8B</li>
+                        <li><span class="check-icon">✓</span> <strong>Endpoint:</strong> SiliconFlow Cloud API</li>
+                        <li><span class="check-icon">✓</span> <strong>Protocol:</strong> OpenAI-compatible API</li>
+                        <li><span class="check-icon">✓</span> <strong>Key Management:</strong> XOR-encrypted API key storage</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h4>⚙️ AI Configuration</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> <strong>AI Weight:</strong> Configurable impact on risk scoring</li>
+                        <li><span class="check-icon">✓</span> <strong>Decay Time:</strong> Score decay rate per minute</li>
+                        <li><span class="check-icon">✓</span> <strong>Recovery:</strong> Whether scores can recover over time</li>
+                        <li><span class="check-icon">✓</span> <strong>Enabled:</strong> AI can be enabled/disabled per rule</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>AI Functions</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Risk Evaluation</h3>
+                    <p><strong>AiEvaluateSingleProcess():</strong> Analyzes individual process behavior and assigns risk scores based on multiple factors including ETW logs, handle usage, and network activity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Behavior Analysis</h3>
+                    <p>Long-term monitoring of suspicious process patterns. The AI tracks process activities over time to identify persistent threats and emerging attack patterns.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Threat Intelligence</h3>
+                    <p>AI-powered pattern recognition. Searches knowledge base for matches with known threat signatures and attack techniques.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤔</div>
+                    <h3>Indirect Influence</h3>
+                    <p>AI provides <strong>indirect influence only</strong>. It adds AI scores to the risk assessment but does not directly execute termination commands. This prevents AI errors from causing system damage.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>ETW Monitoring</h3>
+                    <p>AI only monitors ETW logs for analysis purposes. It does not have access to execute system commands or modify files directly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Security Constraints</h3>
+                    <p>AI's capabilities are strictly limited to analysis and scoring. All execution actions are handled by the algorithmic response engine, ensuring safety and reliability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>AI Workflow</h2>
+            <div class="section-card">
+                <h3>How AI Assists in Threat Detection</h3>
+                <ol>
+                    <li><strong>ETW Log Collection:</strong> ETW monitor collects kernel-level event data</li>
+                    <li><strong>Data Filtering:</strong> Relevant events are filtered and prepared for AI analysis</li>
+                    <li><strong>Knowledge Base Query:</strong> AI searches internal knowledge base for matching threat patterns</li>
+                    <li><strong>Memory Lookup:</strong> Historical threat data is retrieved for contextual analysis</li>
+                    <li><strong>Risk Evaluation:</strong> AI assigns risk scores based on combined analysis</li>
+                    <li><strong>Score Integration:</strong> AI scores are integrated with algorithmic scores</li>
+                    <li><strong>Response Decision:</strong> Rule engine determines appropriate response based on total score</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>Important AI Constraints</h2>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>✅ Safety First</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> AI does NOT execute termination commands</li>
+                        <li><span class="check-icon">✓</span> AI only adds scores to risk assessment</li>
+                        <li><span class="check-icon">✓</span> Execution handled by algorithmic response engine</li>
+                        <li><span class="check-icon">✓</span> AI only monitors ETW logs</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h4>🔒 Security Boundaries</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> No direct file access</li>
+                        <li><span class="check-icon">✓</span> No registry modification</li>
+                        <li><span class="check-icon">✓</span> No process termination</li>
+                        <li><span class="check-icon">✓</span> Read-only access to system information</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="warning-box">
+                <p>⚠️ AI is designed as an enhancement to the algorithmic detection engine, not a replacement. Critical security decisions are always made by deterministic rules.</p>
+            </div>
+        </section>
+
+        <div class="download-banner">
+            <h2>🤖 Experience AI-Powered Security</h2>
+            <p>TRAE Guardian's AI integration provides intelligent threat analysis while maintaining strict security boundaries</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download Now
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="index.html">Home</a>
+            <a href="virus.html">Virus Protection</a>
+            <a href="rogue.html">Rogue Software</a>
+            <a href="features.html">Features</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+</body>
+</html>

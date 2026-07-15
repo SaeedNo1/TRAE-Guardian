@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - Features</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">⚙️</div>
+        </div>
+        <h1>Features</h1>
+        <p class="tagline">Comprehensive security features for enterprise-grade protection</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="virus.html">Virus Protection</a></li>
+            <li><a href="rogue.html">Rogue Software</a></li>
+            <li><a href="ai.html">AI Integration</a></li>
+            <li><a href="features.html" class="active">Features</a></li>
+            <li><a href="index.html#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="download-banner">
+            <h2>🚀 Get TRAE Guardian</h2>
+            <p>Experience all features of TRAE Guardian</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download v1.0.0
+            </a>
+        </div>
+
+        <section>
+            <h2>System Architecture</h2>
+            <div class="section-card">
+                <h3>4-Layer Protection Architecture</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🖥️</div>
+                        <h3>Layer 1: Qt Visualization GUI</h3>
+                        <p><strong>trae_guardian_qt.exe</strong> - User interface for monitoring and management. Provides real-time process monitoring, threat alerts, and configuration options.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚙️</div>
+                        <h3>Layer 2: Core Modules</h3>
+                        <p>Configuration Center, Log Center (SQLite), AI Score Center. Manages system configuration, event logging, and risk scoring.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Layer 3: Detection Engine</h3>
+                        <p>ETW Monitoring, Handle Scanning, MBR Protection, Registry Protection, File Scanning, Network Audit. Detects threats at multiple levels.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Layer 4: Response & Rule Engine</h3>
+                        <p>Graded Response (8 levels), State Machine (6 states), Configurable Rule Engine, AI Risk Evaluation. Executes appropriate responses to detected threats.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Process Management</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Process List</h3>
+                    <p>View all running processes with detailed information including PID, name, path, signer, parent process, and risk score.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔫</div>
+                    <h3>Process Termination</h3>
+                    <p>Terminate single processes or entire process trees. Supports repeated termination for resilient malware.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Protected Processes</h3>
+                    <p>Critical system processes (lsass.exe, csrss.exe, wininit.exe, etc.) are hardcoded and unconditionally protected from termination.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Signature Verification</h3>
+                    <p>Windows Authenticode signature verification with caching (PID + image path as key). Signed processes are handled differently from unsigned processes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>State Machine</h2>
+            <div class="section-card">
+                <h3>6-State Process Management</h3>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>State</th>
+                                <th>Score Range</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Untrusted</td>
+                                <td>0-29</td>
+                                <td>New process, initial state</td>
+                            </tr>
+                            <tr>
+                                <td>Observed</td>
+                                <td>0</td>
+                                <td>Under observation, no suspicious behavior</td>
+                            </tr>
+                            <tr>
+                                <td>Suspicious</td>
+                                <td>30-49</td>
+                                <td>Exhibiting suspicious behavior</td>
+                            </tr>
+                            <tr>
+                                <td>Restricted</td>
+                                <td>50-59</td>
+                                <td>Activities limited, close monitoring</td>
+                            </tr>
+                            <tr>
+                                <td>Quarantined</td>
+                                <td>70-79</td>
+                                <td>Terminated and quarantined</td>
+                            </tr>
+                            <tr>
+                                <td>Removed</td>
+                                <td>80+</td>
+                                <td>Terminated and files deleted</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="margin-top: 16px;">State transitions are bidirectional, allowing processes to recover from lower-risk states if their behavior improves.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Configuration Management</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Rules Configuration</h3>
+                    <p>Configurable rule engine with support for rule ID, weight, conditions, decay time, AI weight, and recoverability. Rules can be modified without recompilation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>Whitelist Management</h3>
+                    <p>Compiler and system tools (gcc.exe, cmd.exe, powershell.exe, etc.) are added to whitelist to prevent false positives during development activities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Scoring Configuration</h3>
+                    <p>Behavior score and kernel score decay rates are configurable. Default is 1 point per minute decay.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Threshold Configuration</h3>
+                    <p>All scoring thresholds (observation, suspicious, restricted, quarantine, removal) are configurable via config.json.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Logging & Reporting</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>SQLite Logging</h3>
+                    <p>All events are logged to SQLite database for historical analysis and AI forensics. Logs include process information, threat detection details, and response actions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Daemon Log</h3>
+                    <p>Detailed daemon.log file records all detection events, rule matches, process terminations, and system activities for debugging and auditing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Log Search</h3>
+                    <p>Built-in log search functionality allows filtering and searching through event logs by process name, PID, time range, and threat type.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Statistics</h3>
+                    <p>Real-time statistics display including total threats detected, processes terminated, MBR restores performed, and false positive rate.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Network Monitoring</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>TCP/UDP Connection Logging</h3>
+                    <p>Monitors all TCP and UDP network connections established by processes. Logs include local and remote IP addresses, ports, and connection status.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>DNS Resolution Auditing</h3>
+                    <p>Logs DNS resolution requests to detect suspicious domain lookups associated with malware command-and-control servers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Network Statistics</h3>
+                    <p>Real-time network statistics including total connections, bytes transferred, and connection frequency per process.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Registry Protection</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Critical Key Monitoring</h3>
+                    <p>Monitors modifications to critical registry keys including Run, RunOnce, Services, and Winlogon keys.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Registry Backup</h3>
+                    <p>Automatically backs up critical registry entries at startup for potential restoration if modifications are detected.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚫</div>
+                    <h3>Unauthorized Change Blocking</h3>
+                    <p>Blocks unauthorized modifications to critical registry keys by unsigned processes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Self-Protection</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Process Protection</h3>
+                    <p>TRAE Guardian's own processes (trae_guardian_daemon.exe, trae_guardian_qt.exe, etc.) are protected from termination.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Mutual Protection</h3>
+                    <p>GUI and daemon processes monitor each other and restart if one is terminated.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3>File Protection</h3>
+                    <p>Installation directory is protected from modification or deletion by unauthorized processes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Service Mode</h3>
+                    <p>Daemon runs as Windows Service with SYSTEM privileges, providing enhanced protection against tampering.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="download-banner">
+            <h2>⚙️ Complete Security Suite</h2>
+            <p>TRAE Guardian provides comprehensive endpoint security with all these features</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download Now
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="index.html">Home</a>
+            <a href="virus.html">Virus Protection</a>
+            <a href="rogue.html">Rogue Software</a>
+            <a href="ai.html">AI Integration</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+</body>
+</html>
