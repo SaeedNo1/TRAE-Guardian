@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAE Guardian - Rogue Software Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <header>
+        <div class="logo-container">
+            <div class="logo">📢</div>
+        </div>
+        <h1>Rogue Software Detection</h1>
+        <p class="tagline">Identify and manage unwanted software with behavioral analysis</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="virus.html">Virus Protection</a></li>
+            <li><a href="rogue.html" class="active">Rogue Software</a></li>
+            <li><a href="ai.html">AI Integration</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="index.html#download">Download</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="download-banner">
+            <h2>🚀 Get TRAE Guardian</h2>
+            <p>Detect and manage rogue software on your system</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download v1.0.0
+            </a>
+        </div>
+
+        <section>
+            <h2>What is Rogue Software?</h2>
+            <div class="section-card">
+                <p>Rogue software refers to unwanted applications that violate user privacy, disrupt system operations, or engage in deceptive practices. Unlike traditional viruses that aim to destroy data, rogue software typically seeks to:</p>
+                <ul>
+                    <li><strong>Display Ads:</strong> Show unwanted advertisements, pop-ups, or redirect browsers</li>
+                    <li><strong>Collect Data:</strong> Steal browsing history, personal information, or system data</li>
+                    <li><strong>Install Bundled Software:</strong> Install additional unwanted programs without user consent</li>
+                    <li><strong>Resist Removal:</strong> Use self-protection mechanisms to prevent uninstallation</li>
+                    <li><strong>Consume Resources:</strong> Occupy excessive CPU, memory, or network bandwidth</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Rogue Software Detection Rules</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Behavior</th>
+                            <th>Score</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Silent ad popups</td>
+                            <td>+4</td>
+                            <td>Displaying advertisements without user interaction</td>
+                        </tr>
+                        <tr>
+                            <td>Full-screen promotion</td>
+                            <td>+4</td>
+                            <td>Opening full-screen advertisement windows</td>
+                        </tr>
+                        <tr>
+                            <td>Background downloads</td>
+                            <td>+6</td>
+                            <td>Downloading third-party software without user confirmation</td>
+                        </tr>
+                        <tr>
+                            <td>Data uploading</td>
+                            <td>+5</td>
+                            <td>Uploading local files or browsing history to remote servers</td>
+                        </tr>
+                        <tr>
+                            <td>Process mutual protection</td>
+                            <td>+20</td>
+                            <td>Multiple processes monitoring and restarting each other</td>
+                        </tr>
+                        <tr>
+                            <td>Self-restart after termination</td>
+                            <td>+15</td>
+                            <td>Automatic restart after being terminated by user</td>
+                        </tr>
+                        <tr>
+                            <td>High resource consumption</td>
+                            <td>+2</td>
+                            <td>Persistent high CPU/memory usage</td>
+                        </tr>
+                        <tr>
+                            <td>Unable to close normally</td>
+                            <td>+5</td>
+                            <td>Ignoring close requests or minimizing instead of closing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>Detection Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Behavioral Analysis</h3>
+                    <p>Monitors process behavior patterns over time. Tracks resource usage, network connections, window creation, and file operations to identify suspicious activity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Signature-Based Classification</h3>
+                    <p>Signed processes are classified as rogue software candidates rather than viruses. This prevents false positives for legitimate but unwanted software.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏷️</div>
+                    <h3>UI Classification</h3>
+                    <p>Processes scoring 60+ points are displayed in the dedicated "Rogue Software" tab in the Qt GUI for user review and action.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Time-Decay Scoring</h3>
+                    <p>Risk scores automatically decay over time (1 point per minute by default). This prevents permanent labeling of once-suspicious processes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Detailed Reporting</h3>
+                    <p>Logs suspect process information including name, PID, path, signer, and parent process for AI forensics and user review.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚠️</div>
+                    <h3>User Notification</h3>
+                    <p>Signed but suspicious processes trigger notifications only, allowing users to decide the appropriate action.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Virus vs Rogue Software</h2>
+            <div class="card-grid">
+                <div class="info-card">
+                    <h4>🦠 Virus/Malware</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> Usually unsigned</li>
+                        <li><span class="check-icon">✓</span> Directly destructive</li>
+                        <li><span class="check-icon">✓</span> Handled by virus analyzer</li>
+                        <li><span class="check-icon">✓</span> Automatic termination at 70+ points</li>
+                        <li><span class="check-icon">✓</span> File deletion after termination</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h4>📢 Rogue Software</h4>
+                    <ul>
+                        <li><span class="check-icon">✓</span> Usually signed (commercial software)</li>
+                        <li><span class="check-icon">✓</span> Privacy-invasive, annoying</li>
+                        <li><span class="check-icon">✓</span> Handled by rogue software analyzer</li>
+                        <li><span class="check-icon">✓</span> Displayed in rogue software tab at 60+ points</li>
+                        <li><span class="check-icon">✓</span> User decides action</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>False Positive Protection</h2>
+            <div class="section-card">
+                <h3>Trusted Path Filtering</h3>
+                <p>To prevent false positives, signed processes located in trusted directories are automatically skipped from rogue software alerts:</p>
+                <ul>
+                    <li><strong>Windows Directory:</strong> C:\Windows\*</li>
+                    <li><strong>Program Files:</strong> C:\Program Files\*</li>
+                    <li><strong>Program Files (x86):</strong> C:\Program Files (x86)\*</li>
+                </ul>
+                <br>
+                <div class="success-box">
+                    <p>✅ VMware Tools and other legitimate system software correctly identified and skipped</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Response Actions</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3>Monitor Only</h3>
+                    <p>Process is tracked but no action is taken. Suitable for borderline cases where behavior needs further observation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Add to List</h3>
+                    <p>Process is added to the rogue software tab for user review. User can decide to keep or remove the software.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Send Notification</h3>
+                    <p>User is notified about the suspicious process through popup alerts and log entries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚫</div>
+                    <h3>User-Initiated Removal</h3>
+                    <p>User can initiate removal through the GUI. The software guides the user through the uninstallation process.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="download-banner">
+            <h2>🛡️ Detect Rogue Software</h2>
+            <p>TRAE Guardian helps you identify and manage unwanted software on your system</p>
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian/releases/download/v1.0.0/trae_guardian_release.zip" class="download-btn">
+                <span class="download-btn-icon">📥</span>
+                Download Now
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/SaeedNo1/TRAE-Guardian">GitHub</a>
+            <a href="index.html">Home</a>
+            <a href="virus.html">Virus Protection</a>
+            <a href="ai.html">AI Integration</a>
+            <a href="features.html">Features</a>
+        </div>
+        <p class="copyright">TRAE Guardian © 2026. For educational and research purposes only.</p>
+    </footer>
+</body>
+</html>
