@@ -369,6 +369,7 @@ footer {
     height: 200%;
     background: radial-gradient(circle, rgba(26, 115, 232, 0.1) 0%, transparent 70%);
     animation: banner-pulse 3s ease-in-out infinite;
+    pointer-events: none;
 }
 
 @keyframes banner-pulse {
